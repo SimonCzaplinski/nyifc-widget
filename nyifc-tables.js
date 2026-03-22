@@ -87,12 +87,7 @@
     '.widget-title{font-size:22px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:#C9A84C;line-height:1}',
     '.widget-subtitle{font-size:10px;font-weight:600;letter-spacing:2.5px;text-transform:uppercase;color:rgba(255,255,255,0.35);margin-top:6px}',
 
-    /* ── Filter bar ── */
-    '.filter-bar{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin-bottom:32px}',
-    '.btn-filter{display:flex;align-items:center;gap:7px;background:#151515;border:1px solid #222;color:rgba(255,255,255,0.5);font-family:"Poppins",sans-serif;font-size:9px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;padding:6px 14px;border-radius:6px;cursor:pointer;transition:border-color 0.15s,color 0.15s,background 0.15s;white-space:nowrap}',
-    '.btn-filter:hover{border-color:rgba(255,255,255,0.3);color:rgba(255,255,255,0.75)}',
-    '.btn-filter.ac{border-color:rgba(255,255,255,0.5);color:#fff;background:#1a1a1a}',
-    '.btn-dot{width:7px;height:7px;border-radius:50%;flex-shrink:0}',
+
 
     /* ── League section ── */
     '.league-section{margin-bottom:36px;transition:opacity 0.2s}',
@@ -199,26 +194,7 @@
     ].join('');
   }
 
-  function buildFilterBar() {
-    var buttons = [
-      '<button class="btn-filter ac" data-target="all">',
-      '<span class="btn-dot" style="background:#fff"></span>ALL TEAMS',
-      '</button>'
-    ];
-    var leagues = [
-      { key: 'apsl', color: '#E07C4F', label: 'APSL' },
-      { key: 'csl',  color: '#C9A84C', label: 'CSL' },
-      { key: 'cslr', color: '#5B9BD5', label: 'CSL RESERVE' }
-    ];
-    leagues.forEach(function (l) {
-      buttons.push(
-        '<button class="btn-filter" data-target="' + l.key + '">',
-        '<span class="btn-dot" style="background:' + l.color + '"></span>' + l.label,
-        '</button>'
-      );
-    });
-    return '<div class="filter-bar">' + buttons.join('') + '</div>';
-  }
+
 
   // ─── INIT ─────────────────────────────────────────────────────────────────────
   function init() {
@@ -242,7 +218,6 @@
       '<div class="widget-title">LEAGUE TABLES</div>',
       '<div class="widget-subtitle">2025 / 2026 SEASON</div>',
       '</div>',
-      buildFilterBar(),
       '<div class="tables-container">',
       sections,
       '</div>',
@@ -251,71 +226,7 @@
 
     shadow.innerHTML = html;
 
-    // ─── Button logic ─────────────────────────────────────────────────────────
-    var buttons   = shadow.querySelectorAll('.btn-filter');
-    var allSects  = shadow.querySelectorAll('.league-section');
 
-    // Track visible leagues
-    var visible = { apsl: true, csl: true, cslr: true };
-
-    function getSection(key) {
-      return shadow.querySelector('.league-section[data-league="' + key + '"]');
-    }
-
-    function getBtn(target) {
-      return shadow.querySelector('.btn-filter[data-target="' + target + '"]');
-    }
-
-    function updateAllBtn() {
-      var allVisible = visible.apsl && visible.csl && visible.cslr;
-      var allHidden  = !visible.apsl && !visible.csl && !visible.cslr;
-      var allBtn = getBtn('all');
-      if (allVisible) {
-        allBtn.classList.add('ac');
-      } else {
-        allBtn.classList.remove('ac');
-      }
-    }
-
-    function applyVisibility() {
-      ['apsl', 'csl', 'cslr'].forEach(function (key) {
-        var sect = getSection(key);
-        var btn  = getBtn(key);
-        if (visible[key]) {
-          sect.classList.remove('hidden');
-          btn.classList.add('ac');
-        } else {
-          sect.classList.add('hidden');
-          btn.classList.remove('ac');
-        }
-      });
-      updateAllBtn();
-    }
-
-    buttons.forEach(function (btn) {
-      btn.addEventListener('click', function () {
-        var target = btn.getAttribute('data-target');
-
-        if (target === 'all') {
-          // If all are visible, hide all; otherwise show all
-          var allVisible = visible.apsl && visible.csl && visible.cslr;
-          if (allVisible) {
-            visible.apsl = false;
-            visible.csl  = false;
-            visible.cslr = false;
-          } else {
-            visible.apsl = true;
-            visible.csl  = true;
-            visible.cslr = true;
-          }
-        } else {
-          // Toggle the individual league
-          visible[target] = !visible[target];
-        }
-
-        applyVisibility();
-      });
-    });
   }
 
   // Run after DOM is ready
