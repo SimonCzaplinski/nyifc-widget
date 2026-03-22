@@ -84,8 +84,8 @@
 
     /* ── Header ── */
     '.widget-header{text-align:center;margin-bottom:28px}',
-    '.widget-title{font-size:22px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:#C9A84C;line-height:1}',
-    '.widget-subtitle{font-size:10px;font-weight:600;letter-spacing:2.5px;text-transform:uppercase;color:rgba(255,255,255,0.35);margin-top:6px}',
+    '.widget-title{font-size:28px;font-weight:700;letter-spacing:4px;text-transform:uppercase;color:#C9A84C;line-height:1}',
+    '.widget-subtitle{font-size:13px;font-weight:600;letter-spacing:2.5px;text-transform:uppercase;color:rgba(255,255,255,0.35);margin-top:8px}',
 
 
 
