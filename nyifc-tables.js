@@ -5,7 +5,7 @@
   var DATA = {
     apsl: {
       label: 'APSL',
-      conference: 'METROPOLITAN CONFERENCE',
+      conference: 'METRO CONFERENCE',
       color: '#E07C4F',
       highlight: 'NY International FC',
       standings: [
@@ -49,7 +49,7 @@
       ]
     },
     cslr: {
-      label: 'CSL RESERVE',
+      label: 'CSL',
       conference: 'DIVISION 2 RESERVE',
       color: '#5B9BD5',
       highlight: 'NY International FC III',
