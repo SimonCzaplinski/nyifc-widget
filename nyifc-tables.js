@@ -9,18 +9,18 @@
       color: '#E07C4F',
       highlight: 'NY International FC',
       standings: [
-        { rank: 1,  team: 'NY Greek Americans',        gp: 15, w: 12, d: 3, l: 0,  gf: 55, ga: 17, gd: 38,  pts: 39 },
-        { rank: 2,  team: 'Lansdowne Yonkers FC',      gp: 15, w: 11, d: 2, l: 2,  gf: 43, ga: 13, gd: 30,  pts: 35 },
-        { rank: 3,  team: 'NY Pancyprian Freedoms',    gp: 13, w: 9,  d: 0, l: 4,  gf: 34, ga: 16, gd: 18,  pts: 27 },
-        { rank: 4,  team: 'Hoboken FC 1912',           gp: 12, w: 8,  d: 2, l: 2,  gf: 44, ga: 18, gd: 26,  pts: 26 },
-        { rank: 5,  team: 'Doxa FCW',                  gp: 14, w: 7,  d: 2, l: 5,  gf: 34, ga: 26, gd: 8,   pts: 23 },
-        { rank: 6,  team: 'Leros SC',                  gp: 14, w: 5,  d: 3, l: 6,  gf: 25, ga: 28, gd: -3,  pts: 18 },
-        { rank: 7,  team: 'Richmond County FC',        gp: 14, w: 5,  d: 3, l: 6,  gf: 28, ga: 40, gd: -12, pts: 18 },
-        { rank: 8,  team: 'NY International FC',       gp: 14, w: 4,  d: 2, l: 8,  gf: 21, ga: 39, gd: -18, pts: 14 },
-        { rank: 9,  team: 'SC Vistula Garfield',       gp: 15, w: 4,  d: 1, l: 10, gf: 22, ga: 52, gd: -30, pts: 13 },
-        { rank: 10, team: 'Zum Schneider FC 03',       gp: 13, w: 4,  d: 0, l: 9,  gf: 17, ga: 38, gd: -21, pts: 9  },
-        { rank: 11, team: 'Central Park Rangers FC',   gp: 14, w: 2,  d: 2, l: 10, gf: 20, ga: 43, gd: -23, pts: 8  },
-        { rank: 12, team: 'NY Athletic Club',          gp: 13, w: 2,  d: 0, l: 11, gf: 22, ga: 35, gd: -13, pts: 6  }
+        { rank: 1,  team: 'NY Greek Americans',        gp: 15, w: 12, d: 3, l: 0,  gf: 55, ga: 17, gd: 38,  pts: 39, logo: 'https://apslsoccer.com/MediaContent//2022/08/20/15/1385542_530758417002357_263896856_n_230170.jpeg' },
+        { rank: 2,  team: 'Lansdowne Yonkers FC',      gp: 15, w: 11, d: 2, l: 2,  gf: 43, ga: 13, gd: 30,  pts: 35, logo: 'https://apslsoccer.com/MediaContent//2023/04/20/09/Lansdowne%20Yonkers%20FC_235666.png' },
+        { rank: 3,  team: 'NY Pancyprian Freedoms',    gp: 13, w: 9,  d: 0, l: 4,  gf: 34, ga: 16, gd: 18,  pts: 27, logo: 'https://apslsoccer.com/MediaContent//2022/08/12/03/NY_Pancyprian_Freedoms_logo_229973.png' },
+        { rank: 4,  team: 'Hoboken FC 1912',           gp: 12, w: 8,  d: 2, l: 2,  gf: 44, ga: 18, gd: 26,  pts: 26, logo: 'https://apslsoccer.com/MediaContent//2023/02/28/00/HCF_circle_-_white_231278_235098.png' },
+        { rank: 5,  team: 'Doxa FCW',                  gp: 14, w: 7,  d: 2, l: 5,  gf: 34, ga: 26, gd: 8,   pts: 23, logo: 'https://apslsoccer.com/MediaContent//2022/09/29/14/Doxa_230155_230722.png' },
+        { rank: 6,  team: 'Leros SC',                  gp: 14, w: 5,  d: 3, l: 6,  gf: 25, ga: 28, gd: -3,  pts: 18, logo: 'https://apslsoccer.com/MediaContent//2025/07/03/07/u_Leros_1751554635731_1_246975.jpg' },
+        { rank: 7,  team: 'Richmond County FC',        gp: 14, w: 5,  d: 3, l: 6,  gf: 28, ga: 40, gd: -12, pts: 18, logo: 'https://apslsoccer.com/MediaContent//2023/09/14/11/Richmond-NEW_239003.png' },
+        { rank: 8,  team: 'NY International FC',       gp: 14, w: 4,  d: 2, l: 8,  gf: 21, ga: 39, gd: -18, pts: 14, logo: 'https://apslsoccer.com/MediaContent//2022/08/08/21/STAR_229908.jpeg' },
+        { rank: 9,  team: 'SC Vistula Garfield',       gp: 15, w: 4,  d: 1, l: 10, gf: 22, ga: 52, gd: -30, pts: 13, logo: 'https://apslsoccer.com/MediaContent//2023/07/21/16/Vistula_237645.jpg' },
+        { rank: 10, team: 'Zum Schneider FC 03',       gp: 13, w: 4,  d: 0, l: 9,  gf: 17, ga: 38, gd: -21, pts: 9,  logo: 'https://apslsoccer.com/MediaContent//2022/08/08/18/Screenshot%202022-08-08%20180027_229893.png' },
+        { rank: 11, team: 'Central Park Rangers FC',   gp: 14, w: 2,  d: 2, l: 10, gf: 20, ga: 43, gd: -23, pts: 8,  logo: 'https://apslsoccer.com/MediaContent//2024/09/03/09/cpr_Logo_243235.png' },
+        { rank: 12, team: 'NY Athletic Club',          gp: 13, w: 2,  d: 0, l: 11, gf: 22, ga: 35, gd: -13, pts: 6,  logo: 'https://apslsoccer.com/MediaContent//2022/08/17/15/nyac_230131.png' }
       ]
     },
     csl: {
@@ -29,23 +29,23 @@
       color: '#C9A84C',
       highlight: 'NY International FC II',
       standings: [
-        { rank: 1,  team: 'Vibes FC',                              gp: 11, w: 8, d: 2, l: 1, gf: 27, ga: 9,  gd: 18,  pts: 26 },
-        { rank: 2,  team: 'NY International FC II',                gp: 12, w: 7, d: 4, l: 1, gf: 32, ga: 17, gd: 15,  pts: 25 },
-        { rank: 3,  team: 'NY Galicia',                            gp: 10, w: 7, d: 2, l: 1, gf: 39, ga: 19, gd: 20,  pts: 23 },
-        { rank: 4,  team: 'Brooklyn City FC',                      gp: 12, w: 7, d: 2, l: 3, gf: 29, ga: 13, gd: 16,  pts: 23 },
-        { rank: 5,  team: 'Stal Mielec NY',                        gp: 11, w: 7, d: 2, l: 2, gf: 25, ga: 13, gd: 12,  pts: 23 },
-        { rank: 6,  team: 'NY Shamrocks',                          gp: 9,  w: 6, d: 1, l: 2, gf: 27, ga: 14, gd: 13,  pts: 19 },
-        { rank: 7,  team: 'NY Finest FC',                          gp: 10, w: 5, d: 0, l: 5, gf: 23, ga: 30, gd: -7,  pts: 15 },
-        { rank: 8,  team: 'Sporting Astoria South Bronx United',   gp: 11, w: 4, d: 2, l: 5, gf: 26, ga: 18, gd: 8,   pts: 14 },
-        { rank: 9,  team: 'FC Japan',                              gp: 11, w: 3, d: 3, l: 5, gf: 16, ga: 19, gd: -3,  pts: 12 },
-        { rank: 10, team: 'Central Park Rangers Lower East',       gp: 11, w: 3, d: 2, l: 6, gf: 17, ga: 34, gd: -17, pts: 11 },
-        { rank: 11, team: 'ERFC',                                  gp: 9,  w: 3, d: 1, l: 5, gf: 17, ga: 24, gd: -7,  pts: 10 },
-        { rank: 12, team: 'Williamsburg International FC',         gp: 10, w: 2, d: 4, l: 4, gf: 15, ga: 20, gd: -5,  pts: 10 },
-        { rank: 13, team: 'Kickoff FC',                            gp: 12, w: 2, d: 4, l: 6, gf: 14, ga: 24, gd: -10, pts: 10 },
-        { rank: 14, team: 'SC Eintracht',                          gp: 12, w: 3, d: 1, l: 8, gf: 22, ga: 26, gd: -4,  pts: 10 },
-        { rank: 15, team: 'Yemen United SC',                       gp: 10, w: 2, d: 1, l: 7, gf: 20, ga: 39, gd: -19, pts: 7  },
-        { rank: 16, team: 'Desportiva Sociedad NY',                gp: 0,  w: 0, d: 0, l: 0, gf: 0,  ga: 0,  gd: 0,   pts: 0  },
-        { rank: 17, team: 'Vllaznia NYC',                          gp: 9,  w: 0, d: 1, l: 8, gf: 7,  ga: 37, gd: -30, pts: -2 }
+        { rank: 1,  team: 'Vibes FC',                              gp: 11, w: 8, d: 2, l: 1, gf: 27, ga: 9,  gd: 18,  pts: 26, logo: 'https://www.cosmosoccerleague.com/MediaContent//2024/08/22/09/vibes_crest_243171.jpg' },
+        { rank: 2,  team: 'NY International FC II',                gp: 12, w: 7, d: 4, l: 1, gf: 32, ga: 17, gd: 15,  pts: 25, logo: 'https://www.cosmosoccerleague.com/MediaContent//2022/08/08/21/STAR_229908.jpeg' },
+        { rank: 3,  team: 'NY Galicia',                            gp: 10, w: 7, d: 2, l: 1, gf: 39, ga: 19, gd: 20,  pts: 23, logo: 'https://www.cosmosoccerleague.com/MediaContent//2022/08/12/03/18622540_10154401704622007_4567169214813878094_n_229969.jpg' },
+        { rank: 4,  team: 'Brooklyn City FC',                      gp: 12, w: 7, d: 2, l: 3, gf: 29, ga: 13, gd: 16,  pts: 23, logo: 'https://www.cosmosoccerleague.com/MediaContent//2022/09/12/14/Brooklyn City_230465.png' },
+        { rank: 5,  team: 'Stal Mielec NY',                        gp: 11, w: 7, d: 2, l: 2, gf: 25, ga: 13, gd: 12,  pts: 23, logo: 'https://www.cosmosoccerleague.com/MediaContent//2022/09/04/00/587_230430.png' },
+        { rank: 6,  team: 'NY Shamrocks',                          gp: 9,  w: 6, d: 1, l: 2, gf: 27, ga: 14, gd: 13,  pts: 19, logo: 'https://www.cosmosoccerleague.com/MediaContent//2022/09/12/18/Shamrock_230469.jpg' },
+        { rank: 7,  team: 'NY Finest FC',                          gp: 10, w: 5, d: 0, l: 5, gf: 23, ga: 30, gd: -7,  pts: 15, logo: 'https://www.cosmosoccerleague.com/MediaContent//2022/08/12/03/9689569796895697_229974.jpg' },
+        { rank: 8,  team: 'Sporting Astoria South Bronx United',   gp: 11, w: 4, d: 2, l: 5, gf: 26, ga: 18, gd: 8,   pts: 14, logo: 'https://www.cosmosoccerleague.com/MediaContent//2025/04/16/10/u_SASC_Logo_2025_1744823413706_1_245533.jpeg' },
+        { rank: 9,  team: 'FC Japan',                              gp: 11, w: 3, d: 3, l: 5, gf: 16, ga: 19, gd: -3,  pts: 12, logo: 'https://www.cosmosoccerleague.com/MediaContent//2022/08/08/20/1_blog_icon_229905.jpeg' },
+        { rank: 10, team: 'Central Park Rangers Lower East',       gp: 11, w: 3, d: 2, l: 6, gf: 17, ga: 34, gd: -17, pts: 11, logo: 'https://www.cosmosoccerleague.com/MediaContent//2024/09/03/09/cpr_Logo_243235.png' },
+        { rank: 11, team: 'ERFC',                                  gp: 9,  w: 3, d: 1, l: 5, gf: 17, ga: 24, gd: -7,  pts: 10, logo: 'https://www.cosmosoccerleague.com/MediaContent//2025/08/28/08/u_PHOTO_2025_07_03_00_32_10_1756395120254_1_81226896_247691.png' },
+        { rank: 12, team: 'Williamsburg International FC',         gp: 10, w: 2, d: 4, l: 4, gf: 15, ga: 20, gd: -5,  pts: 10, logo: 'https://www.cosmosoccerleague.com/MediaContent//2022/08/09/23/WIFC_Crest_Green_229943.png' },
+        { rank: 13, team: 'Kickoff FC',                            gp: 12, w: 2, d: 4, l: 6, gf: 14, ga: 24, gd: -10, pts: 10, logo: 'https://www.cosmosoccerleague.com/MediaContent//2025/07/29/11/u_KOFC_1753812149921_1_247357.jpg' },
+        { rank: 14, team: 'SC Eintracht',                          gp: 12, w: 3, d: 1, l: 8, gf: 22, ga: 26, gd: -4,  pts: 10, logo: 'https://www.cosmosoccerleague.com/MediaContent//2022/08/08/21/5504_229911.png' },
+        { rank: 15, team: 'Yemen United SC',                       gp: 10, w: 2, d: 1, l: 7, gf: 20, ga: 39, gd: -19, pts: 7,  logo: 'https://www.cosmosoccerleague.com/MediaContent//2025/08/13/13/u_Yemen_1755117666949_1_80271343_247539.jpg' },
+        { rank: 16, team: 'Desportiva Sociedad NY',                gp: 0,  w: 0, d: 0, l: 0, gf: 0,  ga: 0,  gd: 0,   pts: 0,  logo: 'https://www.cosmosoccerleague.com/MediaContent//2022/08/08/20/3948_229904.png' },
+        { rank: 17, team: 'Vllaznia NYC',                          gp: 9,  w: 0, d: 1, l: 8, gf: 7,  ga: 37, gd: -30, pts: -2, logo: 'https://www.cosmosoccerleague.com/MediaContent//2025/08/21/09/u_3fdcf2db_c33b_4548_bb79_6afdaa3f4e28_1755792931493_1_80271343_247646.jpeg' }
       ]
     },
     cslr: {
@@ -54,23 +54,23 @@
       color: '#5B9BD5',
       highlight: 'NY International FC III',
       standings: [
-        { rank: 1,  team: 'NY International FC III',               gp: 12, w: 7, d: 3, l: 2, gf: 44, ga: 21, gd: 23,  pts: 24 },
-        { rank: 2,  team: 'NY Finest FC II',                       gp: 10, w: 7, d: 2, l: 1, gf: 26, ga: 8,  gd: 18,  pts: 23 },
-        { rank: 3,  team: 'Central Park Rangers Lower East II',    gp: 11, w: 6, d: 2, l: 3, gf: 31, ga: 28, gd: 3,   pts: 20 },
-        { rank: 4,  team: 'Sporting Astoria South Bronx United II',gp: 11, w: 6, d: 1, l: 4, gf: 33, ga: 21, gd: 12,  pts: 19 },
-        { rank: 5,  team: 'NY Shamrocks II',                       gp: 10, w: 6, d: 1, l: 3, gf: 28, ga: 17, gd: 11,  pts: 19 },
-        { rank: 6,  team: 'Brooklyn City FC II',                   gp: 12, w: 4, d: 4, l: 4, gf: 18, ga: 24, gd: -6,  pts: 16 },
-        { rank: 7,  team: 'Yemen United SC II',                    gp: 10, w: 5, d: 1, l: 4, gf: 22, ga: 24, gd: -2,  pts: 16 },
-        { rank: 8,  team: 'Stal Mielec NY II',                     gp: 11, w: 5, d: 1, l: 5, gf: 18, ga: 23, gd: -5,  pts: 16 },
-        { rank: 9,  team: 'Williamsburg International FC II',      gp: 11, w: 4, d: 3, l: 4, gf: 22, ga: 23, gd: -1,  pts: 15 },
-        { rank: 10, team: 'Kickoff FC II',                         gp: 11, w: 4, d: 2, l: 5, gf: 19, ga: 19, gd: 0,   pts: 14 },
-        { rank: 11, team: 'NY Galicia II',                         gp: 10, w: 3, d: 2, l: 5, gf: 22, ga: 28, gd: -6,  pts: 11 },
-        { rank: 12, team: 'Vllaznia NYC II',                       gp: 10, w: 3, d: 2, l: 5, gf: 23, ga: 30, gd: -7,  pts: 11 },
-        { rank: 13, team: 'ERFC II',                               gp: 10, w: 3, d: 2, l: 5, gf: 17, ga: 27, gd: -10, pts: 11 },
-        { rank: 14, team: 'SC Eintracht II',                       gp: 12, w: 2, d: 3, l: 7, gf: 25, ga: 31, gd: -6,  pts: 9  },
-        { rank: 15, team: 'FC Japan II',                           gp: 11, w: 2, d: 3, l: 6, gf: 13, ga: 26, gd: -13, pts: 9  },
-        { rank: 16, team: 'Vibes FC II',                           gp: 10, w: 1, d: 4, l: 5, gf: 11, ga: 22, gd: -11, pts: 7  },
-        { rank: 17, team: 'Desportiva Sociedad NY II',             gp: 0,  w: 0, d: 0, l: 0, gf: 0,  ga: 0,  gd: 0,   pts: 0  }
+        { rank: 1,  team: 'NY International FC III',               gp: 12, w: 7, d: 3, l: 2, gf: 44, ga: 21, gd: 23,  pts: 24, logo: 'https://www.cosmosoccerleague.com/MediaContent//2022/08/08/21/STAR_229908.jpeg' },
+        { rank: 2,  team: 'NY Finest FC II',                       gp: 10, w: 7, d: 2, l: 1, gf: 26, ga: 8,  gd: 18,  pts: 23, logo: 'https://www.cosmosoccerleague.com/MediaContent//2022/08/12/03/9689569796895697_229974.jpg' },
+        { rank: 3,  team: 'Central Park Rangers Lower East II',    gp: 11, w: 6, d: 2, l: 3, gf: 31, ga: 28, gd: 3,   pts: 20, logo: 'https://www.cosmosoccerleague.com/MediaContent//2024/09/03/09/cpr_Logo_243235.png' },
+        { rank: 4,  team: 'Sporting Astoria South Bronx United II',gp: 11, w: 6, d: 1, l: 4, gf: 33, ga: 21, gd: 12,  pts: 19, logo: 'https://www.cosmosoccerleague.com/MediaContent//2025/04/16/10/u_SASC_Logo_2025_1744823413706_1_245533.jpeg' },
+        { rank: 5,  team: 'NY Shamrocks II',                       gp: 10, w: 6, d: 1, l: 3, gf: 28, ga: 17, gd: 11,  pts: 19, logo: 'https://www.cosmosoccerleague.com/MediaContent//2022/09/12/18/Shamrock_230469.jpg' },
+        { rank: 6,  team: 'Brooklyn City FC II',                   gp: 12, w: 4, d: 4, l: 4, gf: 18, ga: 24, gd: -6,  pts: 16, logo: 'https://www.cosmosoccerleague.com/MediaContent//2022/09/12/14/Brooklyn City_230465.png' },
+        { rank: 7,  team: 'Yemen United SC II',                    gp: 10, w: 5, d: 1, l: 4, gf: 22, ga: 24, gd: -2,  pts: 16, logo: 'https://www.cosmosoccerleague.com/MediaContent//2025/08/13/13/u_Yemen_1755117666949_1_80271343_247539.jpg' },
+        { rank: 8,  team: 'Stal Mielec NY II',                     gp: 11, w: 5, d: 1, l: 5, gf: 18, ga: 23, gd: -5,  pts: 16, logo: 'https://www.cosmosoccerleague.com/MediaContent//2022/09/04/00/587_230430.png' },
+        { rank: 9,  team: 'Williamsburg International FC II',      gp: 11, w: 4, d: 3, l: 4, gf: 22, ga: 23, gd: -1,  pts: 15, logo: 'https://www.cosmosoccerleague.com/MediaContent//2022/08/09/23/WIFC_Crest_Green_229943.png' },
+        { rank: 10, team: 'Kickoff FC II',                         gp: 11, w: 4, d: 2, l: 5, gf: 19, ga: 19, gd: 0,   pts: 14, logo: 'https://www.cosmosoccerleague.com/MediaContent//2025/07/29/11/u_KOFC_1753812149921_1_247357.jpg' },
+        { rank: 11, team: 'NY Galicia II',                         gp: 10, w: 3, d: 2, l: 5, gf: 22, ga: 28, gd: -6,  pts: 11, logo: 'https://www.cosmosoccerleague.com/MediaContent//2022/08/12/03/18622540_10154401704622007_4567169214813878094_n_229969.jpg' },
+        { rank: 12, team: 'Vllaznia NYC II',                       gp: 10, w: 3, d: 2, l: 5, gf: 23, ga: 30, gd: -7,  pts: 11, logo: 'https://www.cosmosoccerleague.com/MediaContent//2025/08/21/09/u_3fdcf2db_c33b_4548_bb79_6afdaa3f4e28_1755792931493_1_80271343_247646.jpeg' },
+        { rank: 13, team: 'ERFC II',                               gp: 10, w: 3, d: 2, l: 5, gf: 17, ga: 27, gd: -10, pts: 11, logo: 'https://www.cosmosoccerleague.com/MediaContent//2025/08/28/08/u_PHOTO_2025_07_03_00_32_10_1756395120254_1_81226896_247691.png' },
+        { rank: 14, team: 'SC Eintracht II',                       gp: 12, w: 2, d: 3, l: 7, gf: 25, ga: 31, gd: -6,  pts: 9,  logo: 'https://www.cosmosoccerleague.com/MediaContent//2022/08/08/21/5504_229911.png' },
+        { rank: 15, team: 'FC Japan II',                           gp: 11, w: 2, d: 3, l: 6, gf: 13, ga: 26, gd: -13, pts: 9,  logo: 'https://www.cosmosoccerleague.com/MediaContent//2022/08/08/20/1_blog_icon_229905.jpeg' },
+        { rank: 16, team: 'Vibes FC II',                           gp: 10, w: 1, d: 4, l: 5, gf: 11, ga: 22, gd: -11, pts: 7,  logo: 'https://www.cosmosoccerleague.com/MediaContent//2024/08/22/09/vibes_crest_243171.jpg' },
+        { rank: 17, team: 'Desportiva Sociedad NY II',             gp: 0,  w: 0, d: 0, l: 0, gf: 0,  ga: 0,  gd: 0,   pts: 0,  logo: 'https://www.cosmosoccerleague.com/MediaContent//2022/08/08/20/3948_229904.png' }
       ]
     }
   };
@@ -102,7 +102,7 @@
     '.standings-table th{font-size:11px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;color:#C9A84C;padding:10px 8px;text-align:center;white-space:nowrap}',
     '.standings-table th.col-team{text-align:left;padding-left:12px}',
     '.standings-table td{font-size:14px;font-weight:400;padding:10px 8px;text-align:center;color:rgba(255,255,255,0.75);border-bottom:1px solid rgba(255,255,255,0.04)}',
-    '.standings-table td.col-team{text-align:left;padding-left:12px;font-weight:500;color:rgba(255,255,255,0.9)}',
+    '.standings-table td.col-team{text-align:left;padding-left:12px;font-weight:500;color:rgba(255,255,255,0.9);white-space:nowrap}',
     '.standings-table td.col-pts{font-weight:700;font-size:15px;color:#fff}',
     '.standings-table td.col-rank{color:rgba(255,255,255,0.35);font-size:13px;width:32px}',
     '.standings-table tbody tr:nth-child(even){background:rgba(255,255,255,0.02)}',
@@ -112,6 +112,10 @@
     '.standings-table tbody tr.nyifc-row td{color:#fff}',
     '.standings-table tbody tr.nyifc-row td.col-team{color:#C9A84C;font-weight:600}',
     '.standings-table tbody tr:last-child td{border-bottom:none}',
+
+    /* ── Team logo ── */
+    '.team-logo{width:20px;height:20px;object-fit:contain;border-radius:2px;vertical-align:middle;margin-right:8px;flex-shrink:0}',
+    '.team-cell-inner{display:flex;align-items:center;gap:0}',
 
     /* ── GD positive/negative ── */
     '.gd-pos{color:rgba(100,220,130,0.85)}',
@@ -128,6 +132,7 @@
     '.standings-table th{font-size:10px;padding:8px 5px}',
     '.standings-table th.col-team{padding-left:8px}',
     '.widget{padding:16px 10px 32px}',
+    '.team-logo{width:16px;height:16px;margin-right:6px}',
     '}'
   ].join('\n');
 
@@ -147,10 +152,13 @@
     var rows = league.standings.map(function (r) {
       var isNYIFC = r.team === league.highlight;
       var rowClass = isNYIFC ? ' class="nyifc-row"' : '';
+      var logoHtml = r.logo
+        ? '<img class="team-logo" src="' + r.logo + '" alt="" loading="lazy" onerror="this.style.display=\'none\'">'
+        : '';
       return [
         '<tr' + rowClass + '>',
         '<td class="col-rank">' + r.rank + '</td>',
-        '<td class="col-team">' + r.team + '</td>',
+        '<td class="col-team"><div class="team-cell-inner">' + logoHtml + '<span>' + r.team + '</span></div></td>',
         '<td>' + r.gp + '</td>',
         '<td>' + r.w + '</td>',
         '<td>' + r.d + '</td>',
