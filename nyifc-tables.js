@@ -97,14 +97,18 @@
     '.division-title{font-size:16px;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;color:rgba(255,255,255,0.9)}',
 
     /* ── Table ── */
-    '.standings-table{width:100%;border-collapse:collapse;background:#0f0f0f;border-radius:0 0 6px 6px;overflow:hidden}',
+    '.standings-table{width:100%;border-collapse:collapse;background:#0f0f0f;border-radius:0 0 6px 6px;overflow:hidden;table-layout:fixed}',
     '.standings-table thead tr{background:#111;border-bottom:1px solid #1e1e1e}',
     '.standings-table th{font-size:11px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;color:#C9A84C;padding:10px 8px;text-align:center;white-space:nowrap}',
     '.standings-table th.col-team{text-align:left;padding-left:12px}',
     '.standings-table td{font-size:14px;font-weight:400;padding:10px 8px;text-align:center;color:rgba(255,255,255,0.75);border-bottom:1px solid rgba(255,255,255,0.04)}',
-    '.standings-table td.col-team{text-align:left;padding-left:12px;font-weight:500;color:rgba(255,255,255,0.9);white-space:nowrap}',
+    '.standings-table td.col-team{text-align:left;padding-left:12px;font-weight:500;color:rgba(255,255,255,0.9);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}',
     '.standings-table td.col-pts{font-weight:700;font-size:15px;color:#fff}',
     '.standings-table td.col-rank{color:rgba(255,255,255,0.35);font-size:13px;width:32px}',
+    '.standings-table col.c-rank{width:32px}',
+    '.standings-table col.c-team{width:auto}',
+    '.standings-table col.c-stat{width:32px}',
+    '.standings-table col.c-pts{width:36px}',
     '.standings-table tbody tr:nth-child(even){background:rgba(255,255,255,0.02)}',
     '.standings-table tbody tr:hover{background:rgba(255,255,255,0.04)}',
     '.standings-table tbody tr.nyifc-row{background:rgba(201,168,76,0.12) !important}',
@@ -115,7 +119,8 @@
 
     /* ── Team logo ── */
     '.team-logo{width:20px;height:20px;object-fit:contain;border-radius:2px;vertical-align:middle;margin-right:8px;flex-shrink:0}',
-    '.team-cell-inner{display:flex;align-items:center;gap:0}',
+    '.team-cell-inner{display:flex;align-items:center;gap:0;min-width:0}',
+    '.team-cell-inner span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}',
 
     /* ── GD positive/negative ── */
     '.gd-pos{color:rgba(100,220,130,0.85)}',
@@ -127,12 +132,16 @@
     '.standings-table th.col-gf,.standings-table td.col-gf,',
     '.standings-table th.col-ga,.standings-table td.col-ga,',
     '.standings-table th.col-gd,.standings-table td.col-gd{display:none}',
-    '.standings-table td{font-size:12px;padding:8px 5px}',
-    '.standings-table td.col-team{padding-left:8px}',
-    '.standings-table th{font-size:10px;padding:8px 5px}',
-    '.standings-table th.col-team{padding-left:8px}',
+    '.standings-table td{font-size:12px;padding:8px 4px}',
+    '.standings-table td.col-team{padding-left:6px;max-width:0}',
+    '.standings-table th{font-size:10px;padding:8px 4px}',
+    '.standings-table th.col-team{padding-left:6px}',
+    '.standings-table col.c-stat{width:28px}',
+    '.standings-table col.c-pts{width:32px}',
+    '.standings-table col.c-rank{width:26px}',
     '.widget{padding:16px 10px 32px}',
     '.team-logo{width:16px;height:16px;margin-right:6px}',
+    '.division-title{font-size:13px;letter-spacing:1.5px}',
     '}'
   ].join('\n');
 
@@ -173,6 +182,13 @@
 
     return [
       '<table class="standings-table">',
+      '<colgroup>',
+      '<col class="c-rank">',
+      '<col class="c-team">',
+      '<col class="c-stat"><col class="c-stat"><col class="c-stat"><col class="c-stat">',
+      '<col class="c-stat c-gf"><col class="c-stat c-ga"><col class="c-stat c-gd">',
+      '<col class="c-pts">',
+      '</colgroup>',
       '<thead><tr>',
       '<th class="col-rank">#</th>',
       '<th class="col-team">TEAM</th>',
