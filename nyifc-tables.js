@@ -79,7 +79,7 @@
   var CSS = [
     "@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');",
     '*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}',
-    ':host{display:block;font-family:"Poppins",sans-serif;background:#0d0d0d;color:#fff}',
+    ':host{display:block;font-family:"Poppins",sans-serif;background:#0d0d0d;color:#fff;overflow:hidden}',
     '.widget{max-width:920px;margin:0 auto;padding:24px 16px 40px}',
 
     /* ── Header ── */
@@ -125,6 +125,7 @@
 
     /* ── Mobile ── */
     '@media(max-width:600px){',
+    '.widget{overflow:hidden}',
     '.standings-table{table-layout:fixed;width:100%}',
     '.standings-table th.col-gf,.standings-table td.col-gf,',
     '.standings-table th.col-ga,.standings-table td.col-ga,',
