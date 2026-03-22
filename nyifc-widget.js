@@ -4,24 +4,24 @@
   var shadow = host.attachShadow({mode:"open"});
 
   var GAMES=[
-    {d:"2025-09-07",t:"2:00 PM",o:"Brooklyn City FC",l:"Bush Terminal Piers Park",h:"away",r:"draw",s:"2 - 2",m:"csl2",ml:"CSL Div 2"},
-    {d:"2025-09-14",t:"4:00 PM",o:"Williamsburg International FC",l:"Bushwick Inlet",h:"away",r:"draw",s:"1 - 1",m:"csl2",ml:"CSL Div 2"},
-    {d:"2025-09-21",t:"10:00 AM",o:"NY Finest FC",l:"Flushing Meadows - Field 9",h:"away",r:"win",s:"1 - 4",m:"csl2",ml:"CSL Div 2"},
-    {d:"2025-09-28",t:"5:00 PM",o:"Kickoff FC",l:"College Point Field",h:"home",r:"draw",s:"1 - 1",m:"csl2",ml:"CSL Div 2"},
-    {d:"2025-10-05",t:"5:00 PM",o:"SC Eintracht",l:"College Point Field",h:"home",r:"win",s:"3 - 2",m:"csl2",ml:"CSL Div 2"},
-    {d:"2025-10-11",t:"8:00 PM",o:"Yemen United SC",l:"Randalls Island - Field 75",h:"away",r:"win",s:"2 - 4",m:"csl2",ml:"CSL Div 2"},
-    {d:"2025-10-26",t:"4:00 PM",o:"ERFC",l:"Randalls Island - Field 70",h:"home",r:"win",s:"3 - 1",m:"csl2",ml:"CSL Div 2"},
-    {d:"2025-11-01",t:"8:00 PM",o:"FC Japan",l:"Randall's Island - Field 74",h:"home",r:"win",s:"1 - 0",m:"csl2",ml:"CSL Div 2"},
-    {d:"2025-11-16",t:"12:00 PM",o:"Central Park Rangers Lower East",l:"Randalls Island - Field 72",h:"home",r:"win",s:"7 - 1",m:"csl2",ml:"CSL Div 2"},
-    {d:"2025-11-23",t:"7:30 PM",o:"Sporting Astoria South Bronx United",l:"Soundview Park",h:"away",r:"draw",s:"2 - 2",m:"csl2",ml:"CSL Div 2"},
-    {d:"2026-03-08",t:"12:00 PM",o:"Stal Mielec NY",l:"Randalls Island - Field 72",h:"home",r:"loss",s:"1 - 4",m:"csl2",ml:"CSL Div 2"},
-    {d:"2026-03-15",t:"10:00 AM",o:"Vllaznia NYC",l:"Mccarren Park",h:"home",r:"win",s:"3 - 0",m:"csl2",ml:"CSL Div 2"},
-    {d:"2026-03-26",t:"8:00 PM",o:"NY Galicia",l:"Randalls Island - Field 70",h:"home",r:"upcoming",s:"",m:"csl2",ml:"CSL Div 2"},
-    {d:"2026-03-29",t:"4:00 PM",o:"Vibes FC",l:"Randalls Island - Field 82",h:"away",r:"upcoming",s:"",m:"csl2",ml:"CSL Div 2"},
-    {d:"2026-04-12",t:"TBD",o:"NY Shamrocks",l:"TBD",h:"away",r:"upcoming",s:"",m:"csl2",ml:"CSL Div 2"},
-    {d:"2026-04-26",t:"TBD",o:"Vllaznia NYC",l:"TBD",h:"away",r:"upcoming",s:"",m:"csl2",ml:"CSL Div 2"},
-    {d:"2026-05-03",t:"4:00 PM",o:"SC Eintracht",l:"Russo Farm Field",h:"away",r:"upcoming",s:"",m:"csl2",ml:"CSL Div 2"},
-    {d:"2026-05-17",t:"TBD",o:"NY Finest FC",l:"TBD",h:"home",r:"upcoming",s:"",m:"csl2",ml:"CSL Div 2"},
+    {d:"2025-09-07",t:"2:00 PM",o:"Brooklyn City FC",l:"Bush Terminal Piers Park",h:"away",r:"draw",s:"2 - 2",m:"csl2",ml:"CSL"},
+    {d:"2025-09-14",t:"4:00 PM",o:"Williamsburg International FC",l:"Bushwick Inlet",h:"away",r:"draw",s:"1 - 1",m:"csl2",ml:"CSL"},
+    {d:"2025-09-21",t:"10:00 AM",o:"NY Finest FC",l:"Flushing Meadows - Field 9",h:"away",r:"win",s:"1 - 4",m:"csl2",ml:"CSL"},
+    {d:"2025-09-28",t:"5:00 PM",o:"Kickoff FC",l:"College Point Field",h:"home",r:"draw",s:"1 - 1",m:"csl2",ml:"CSL"},
+    {d:"2025-10-05",t:"5:00 PM",o:"SC Eintracht",l:"College Point Field",h:"home",r:"win",s:"3 - 2",m:"csl2",ml:"CSL"},
+    {d:"2025-10-11",t:"8:00 PM",o:"Yemen United SC",l:"Randalls Island - Field 75",h:"away",r:"win",s:"2 - 4",m:"csl2",ml:"CSL"},
+    {d:"2025-10-26",t:"4:00 PM",o:"ERFC",l:"Randalls Island - Field 70",h:"home",r:"win",s:"3 - 1",m:"csl2",ml:"CSL"},
+    {d:"2025-11-01",t:"8:00 PM",o:"FC Japan",l:"Randall's Island - Field 74",h:"home",r:"win",s:"1 - 0",m:"csl2",ml:"CSL"},
+    {d:"2025-11-16",t:"12:00 PM",o:"Central Park Rangers Lower East",l:"Randalls Island - Field 72",h:"home",r:"win",s:"7 - 1",m:"csl2",ml:"CSL"},
+    {d:"2025-11-23",t:"7:30 PM",o:"Sporting Astoria South Bronx United",l:"Soundview Park",h:"away",r:"draw",s:"2 - 2",m:"csl2",ml:"CSL"},
+    {d:"2026-03-08",t:"12:00 PM",o:"Stal Mielec NY",l:"Randalls Island - Field 72",h:"home",r:"loss",s:"1 - 4",m:"csl2",ml:"CSL"},
+    {d:"2026-03-15",t:"10:00 AM",o:"Vllaznia NYC",l:"Mccarren Park",h:"home",r:"win",s:"3 - 0",m:"csl2",ml:"CSL"},
+    {d:"2026-03-26",t:"8:00 PM",o:"NY Galicia",l:"Randalls Island - Field 70",h:"home",r:"upcoming",s:"",m:"csl2",ml:"CSL"},
+    {d:"2026-03-29",t:"4:00 PM",o:"Vibes FC",l:"Randalls Island - Field 82",h:"away",r:"upcoming",s:"",m:"csl2",ml:"CSL"},
+    {d:"2026-04-12",t:"TBD",o:"NY Shamrocks",l:"TBD",h:"away",r:"upcoming",s:"",m:"csl2",ml:"CSL"},
+    {d:"2026-04-26",t:"TBD",o:"Vllaznia NYC",l:"TBD",h:"away",r:"upcoming",s:"",m:"csl2",ml:"CSL"},
+    {d:"2026-05-03",t:"4:00 PM",o:"SC Eintracht",l:"Russo Farm Field",h:"away",r:"upcoming",s:"",m:"csl2",ml:"CSL"},
+    {d:"2026-05-17",t:"TBD",o:"NY Finest FC",l:"TBD",h:"home",r:"upcoming",s:"",m:"csl2",ml:"CSL"},
     {d:"2025-09-07",t:"12:00 PM",o:"Brooklyn City FC II",l:"Bush Terminal Piers Park",h:"away",r:"win",s:"0 - 8",m:"csl2r",ml:"CSL Reserve"},
     {d:"2025-09-14",t:"2:00 PM",o:"Williamsburg International FC II",l:"Bushwick Inlet",h:"away",r:"draw",s:"3 - 3",m:"csl2r",ml:"CSL Reserve"},
     {d:"2025-09-21",t:"8:00 AM",o:"NY Finest FC II",l:"Flushing Meadows - Field 9",h:"away",r:"loss",s:"6 - 1",m:"csl2r",ml:"CSL Reserve"},
@@ -193,9 +193,9 @@
     +'<div class="sh"><h2>Match Schedule</h2><div class="sn">2025 / 2026 Season</div></div>'
     +'<div class="fr" id="nfr">'
     +'<button class="fb ac" data-team="all"><span class="dt" style="background:#fff;"></span> All Teams</button>'
-    +'<button class="fb ac" data-team="csl2"><span class="dt" style="background:#C9A84C;"></span> CSL Div 2</button>'
-    +'<button class="fb ac" data-team="csl2r"><span class="dt" style="background:#5B9BD5;"></span> CSL Reserve</button>'
     +'<button class="fb ac" data-team="apsl"><span class="dt" style="background:#E07C4F;"></span> APSL</button>'
+    +'<button class="fb ac" data-team="csl2"><span class="dt" style="background:#C9A84C;"></span> CSL</button>'
+    +'<button class="fb ac" data-team="csl2r"><span class="dt" style="background:#5B9BD5;"></span> CSL Reserve</button>'
     +'</div>'
     +'<div class="tr" id="ntr">'
     +'<button class="tb ac" data-tab="upcoming">Upcoming</button>'
@@ -208,9 +208,9 @@
     +'<div class="cn"><button id="npv">\u2039</button><span class="ml" id="nml"></span><button id="nnt">\u203A</button></div>'
     +'<div class="cg" id="ncg"></div>'
     +'<div class="lg">'
-    +'<div class="li"><div class="ls" style="background:#C9A84C;"></div>CSL Div 2</div>'
-    +'<div class="li"><div class="ls" style="background:#5B9BD5;"></div>CSL Reserve</div>'
     +'<div class="li"><div class="ls" style="background:#E07C4F;"></div>APSL</div>'
+    +'<div class="li"><div class="ls" style="background:#C9A84C;"></div>CSL</div>'
+    +'<div class="li"><div class="ls" style="background:#5B9BD5;"></div>CSL Reserve</div>'
     +'</div></div></div>';
 
   shadow.innerHTML='<style>'+css+'</style>'+htmlContent;
