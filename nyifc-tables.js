@@ -90,14 +90,15 @@
 
 
     /* ── League section ── */
-    '.league-section{margin-bottom:36px;transition:opacity 0.2s}',
+    '.league-section{margin-bottom:28px;transition:opacity 0.2s;background:#111;border:1px solid #1e1e1e;border-radius:8px;overflow:hidden}',
+    '.league-section:last-child{margin-bottom:0}',
     '.league-section.hidden{display:none}',
-    '.division-bar{display:flex;align-items:center;gap:10px;padding:10px 14px;margin-bottom:0;border-radius:6px 6px 0 0;background:#111}',
+    '.division-bar{display:flex;align-items:center;gap:10px;padding:10px 14px;margin-bottom:0;border-radius:0;background:#161616;border-bottom:1px solid #1e1e1e}',
     '.division-accent{width:3px;height:18px;border-radius:2px;flex-shrink:0}',
     '.division-title{font-size:16px;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;color:rgba(255,255,255,0.9)}',
 
     /* ── Table ── */
-    '.standings-table{width:100%;border-collapse:collapse;background:#0f0f0f;border-radius:0 0 6px 6px;overflow:hidden}',
+    '.standings-table{width:100%;border-collapse:collapse;background:transparent;border-radius:0;overflow:hidden}',
     '.standings-table thead tr{background:#111;border-bottom:1px solid #1e1e1e}',
     '.standings-table th{font-size:11px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;color:#C9A84C;padding:10px 8px;text-align:center;white-space:nowrap}',
     '.standings-table th.col-team{text-align:left;padding-left:12px}',
