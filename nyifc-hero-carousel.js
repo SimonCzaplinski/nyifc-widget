@@ -5,10 +5,13 @@
   // Add your Squarespace image URLs here. Upload photos via Squarespace,
   // then right-click the image > "Copy image address" to get the URL.
   var IMAGES = [
-    'https://images.squarespace-cdn.com/content/v1/63edbd8f26e6ab49f9f9e0db/c73b79a1-78b3-4579-8b46-3a9b63903ccf/CSL+FIRST.png'
-    // Add more image URLs here, separated by commas:
-    // 'https://images.squarespace-cdn.com/content/v1/...',
-    // 'https://images.squarespace-cdn.com/content/v1/...',
+    'https://images.squarespace-cdn.com/content/v1/63edbd8f26e6ab49f9f9e0db/c73b79a1-78b3-4579-8b46-3a9b63903ccf/CSL+FIRST.png',
+    'https://images.squarespace-cdn.com/content/63edbd8f26e6ab49f9f9e0db/ec7dfc33-e5f0-4158-bcf0-3a5b9de262eb/2.png?content-type=image%2Fpng',
+    'https://images.squarespace-cdn.com/content/63edbd8f26e6ab49f9f9e0db/96cc6bcd-9e7e-4f6d-b613-a8933f703d9e/3.png?content-type=image%2Fpng',
+    'https://images.squarespace-cdn.com/content/63edbd8f26e6ab49f9f9e0db/0661eff2-0449-4206-a25f-1535776b5054/4.png?content-type=image%2Fpng',
+    'https://images.squarespace-cdn.com/content/63edbd8f26e6ab49f9f9e0db/32b13ce2-8da2-423b-8120-f6777e6a7903/5.png?content-type=image%2Fpng',
+    'https://images.squarespace-cdn.com/content/63edbd8f26e6ab49f9f9e0db/47dc5465-a213-4dad-a8d5-871055fd0e2d/6.png?content-type=image%2Fpng',
+    'https://images.squarespace-cdn.com/content/63edbd8f26e6ab49f9f9e0db/2609ab72-f3b9-4069-b1ea-aabc583982fa/7.png?content-type=image%2Fpng'
   ];
 
   var INTERVAL = 5000;       // Time per image in milliseconds (5 seconds)
