@@ -14,7 +14,7 @@
     'https://images.squarespace-cdn.com/content/63edbd8f26e6ab49f9f9e0db/2609ab72-f3b9-4069-b1ea-aabc583982fa/7.png?content-type=image%2Fpng'
   ];
 
-  var INTERVAL = 5000;       // Time per image in milliseconds (5 seconds)
+  var INTERVAL = 8000;       // Time per image in milliseconds (8 seconds)
   var FADE_DURATION = 1200;  // Crossfade duration in milliseconds
 
   // ─── TARGET SECTION ─────────────────────────────────────────────────────────
