@@ -14,13 +14,13 @@
         { rank: 3,  team: 'NY Pancyprian Freedoms',                        gp: 14, w: 10, d: 0, l: 4,  gf: 37, ga: 17, gd: 20,  pts: 30, logo: 'https://apslsoccer.com/MediaContent//2022/08/12/03/NY_Pancyprian_Freedoms_logo_229973.png' },
         { rank: 4,  team: 'Hoboken FC 1912',                               gp: 13, w: 8, d: 2, l: 3,  gf: 45, ga: 21, gd: 24,  pts: 26, logo: 'https://apslsoccer.com/MediaContent//2023/02/28/00/HCF_circle_-_white_231278_235098.png' },
         { rank: 5,  team: 'Doxa FCW',                                      gp: 14, w: 7, d: 2, l: 5,  gf: 34, ga: 26, gd: 8,  pts: 23, logo: 'https://apslsoccer.com/MediaContent//2022/09/29/14/Doxa_230155_230722.png' },
-        { rank: 6,  team: 'Richmond County FC',                            gp: 15, w: 6, d: 3, l: 6,  gf: 34, ga: 40, gd: -6, pts: 21, logo: 'https://apslsoccer.com/MediaContent//2023/09/14/11/Richmond-NEW_239003.png' },
-        { rank: 7,  team: 'Leros SC',                                      gp: 14, w: 5, d: 3, l: 6,  gf: 25, ga: 28, gd: -3, pts: 18, logo: 'https://apslsoccer.com/MediaContent//2025/07/03/07/u_Leros_1751554635731_1_246975.jpg' },
-        { rank: 8,  team: 'NY International FC',                           gp: 14, w: 4, d: 2, l: 8,  gf: 21, ga: 39, gd: -18, pts: 14, logo: 'https://apslsoccer.com/MediaContent//2022/08/08/21/STAR_229908.jpeg' },
+        { rank: 6,  team: 'Leros SC',                                      gp: 15, w: 6, d: 3, l: 6,  gf: 31, ga: 29, gd: 2,  pts: 21, logo: 'https://apslsoccer.com/MediaContent//2025/07/03/07/u_Leros_1751554635731_1_246975.jpg' },
+        { rank: 7,  team: 'Richmond County FC',                            gp: 15, w: 6, d: 3, l: 6,  gf: 34, ga: 40, gd: -6, pts: 21, logo: 'https://apslsoccer.com/MediaContent//2023/09/14/11/Richmond-NEW_239003.png' },
+        { rank: 8,  team: 'NY International FC',                           gp: 15, w: 4, d: 2, l: 9,  gf: 22, ga: 42, gd: -20, pts: 14, logo: 'https://apslsoccer.com/MediaContent//2022/08/08/21/STAR_229908.jpeg' },
         { rank: 9,  team: 'SC Vistula Garfield',                           gp: 15, w: 4, d: 1, l: 10,  gf: 22, ga: 52, gd: -30, pts: 13, logo: 'https://apslsoccer.com/MediaContent//2023/07/21/16/Vistula_237645.jpg' },
-        { rank: 10,  team: 'Zum Schneider FC 03',                           gp: 13, w: 4, d: 0, l: 9,  gf: 17, ga: 38, gd: -21, pts: 9, logo: 'https://apslsoccer.com/MediaContent//2022/08/08/18/Screenshot%202022-08-08%20180027_229893.png' },
-        { rank: 11,  team: 'Central Park Rangers FC',                       gp: 15, w: 2, d: 2, l: 11,  gf: 20, ga: 49, gd: -29, pts: 8, logo: 'https://apslsoccer.com/MediaContent//2024/09/03/09/cpr_Logo_243235.png' },
-        { rank: 12,  team: 'NY Athletic Club',                              gp: 13, w: 2, d: 0, l: 11,  gf: 22, ga: 35, gd: -13, pts: 6, logo: 'https://apslsoccer.com/MediaContent//2022/08/17/15/nyac_230131.png' }
+        { rank: 10,  team: 'Zum Schneider FC 03',                           gp: 14, w: 4, d: 0, l: 10,  gf: 18, ga: 44, gd: -26, pts: 9, logo: 'https://apslsoccer.com/MediaContent//2022/08/08/18/Screenshot%202022-08-08%20180027_229893.png' },
+        { rank: 11,  team: 'NY Athletic Club',                              gp: 14, w: 3, d: 0, l: 11,  gf: 25, ga: 36, gd: -11, pts: 9, logo: 'https://apslsoccer.com/MediaContent//2022/08/17/15/nyac_230131.png' },
+        { rank: 12,  team: 'Central Park Rangers FC',                       gp: 15, w: 2, d: 2, l: 11,  gf: 20, ga: 49, gd: -29, pts: 8, logo: 'https://apslsoccer.com/MediaContent//2024/09/03/09/cpr_Logo_243235.png' }
       ]
     },
     csl: {
