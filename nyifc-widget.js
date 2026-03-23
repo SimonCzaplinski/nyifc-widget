@@ -60,8 +60,8 @@
     {d:"2026-04-19",t:"2:30 PM",o:"Central Park Rangers FC",l:"Roosevelt Island - Jack Mcmanus Field",h:"home",r:"upcoming",s:"",m:"apsl",ml:"APSL"},
     {d:"2026-04-26",t:"4:00 PM",o:"Hoboken FC 1912",l:"Laurel Hill Park",h:"away",r:"upcoming",s:"",m:"apsl",ml:"APSL"},
     {d:"2026-05-03",t:"2:30 PM",o:"Leros SC",l:"Roosevelt Island - Jack Mcmanus Field",h:"home",r:"upcoming",s:"",m:"apsl",ml:"APSL"},
-    {d:"2026-05-16",t:"TBD",o:"Richmond County FC",l:"Roosevelt Island - Jack Mcmanus Field",h:"home",r:"upcoming",s:"",m:"apsl",ml:"APSL"},
-    {d:"2026-05-16",t:"TBD",o:"SC Vistula Garfield",l:"Garfield High School",h:"away",r:"upcoming",s:"",m:"apsl",ml:"APSL"}
+    {d:"2026-05-10",t:"2:30 PM",o:"Richmond County FC",l:"Roosevelt Island - Jack Mcmanus Field",h:"home",r:"upcoming",s:"",m:"apsl",ml:"APSL"},
+    {d:"2026-05-16",t:"7:30 PM",o:"SC Vistula Garfield",l:"Garfield High School",h:"away",r:"upcoming",s:"",m:"apsl",ml:"APSL"}
   ];
 
   var MN=["January","February","March","April","May","June","July","August","September","October","November","December"];
