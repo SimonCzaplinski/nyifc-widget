@@ -34,7 +34,7 @@
     {d:"2025-11-23",t:"5:30 PM",o:"Sporting Astoria South Bronx United II",l:"Soundview Park",h:"away",r:"draw",s:"3 - 3",m:"csl2r",ml:"CSL Reserve"},
     {d:"2026-03-08",t:"10:00 AM",o:"Stal Mielec NY II",l:"Randalls Island - Field 72",h:"home",r:"win",s:"5 - 1",m:"csl2r",ml:"CSL Reserve"},
     {d:"2026-03-15",t:"8:00 AM",o:"Vllaznia NYC II",l:"Mccarren Park",h:"home",r:"win",s:"3 - 1",m:"csl2r",ml:"CSL Reserve"},
-    {d:"2026-03-24",t:"9:00 PM",o:"NY Galicia II",l:"Randall's Island - Field 74",h:"home",r:"upcoming",s:"",m:"csl2r",ml:"CSL Reserve"},
+    {d:"2026-03-24",t:"9:00 PM",o:"NY Galicia II",l:"Randall's Island - Field 75",h:"home",r:"upcoming",s:"",m:"csl2r",ml:"CSL Reserve"},
     {d:"2026-03-29",t:"2:00 PM",o:"Vibes FC II",l:"Randalls Island - Field 82",h:"away",r:"upcoming",s:"",m:"csl2r",ml:"CSL Reserve"},
     {d:"2026-04-12",t:"1:00 PM",o:"NY Shamrocks II",l:"Randalls Island - Field 75",h:"away",r:"upcoming",s:"",m:"csl2r",ml:"CSL Reserve"},
     {d:"2026-04-26",t:"TBD",o:"Vllaznia NYC II",l:"TBD",h:"away",r:"upcoming",s:"",m:"csl2r",ml:"CSL Reserve"},
