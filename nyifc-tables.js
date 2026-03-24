@@ -90,7 +90,7 @@
 
 
     /* ── League section ── */
-    '.league-section{margin-bottom:28px;transition:opacity 0.2s;background:#111;border:1px solid #1e1e1e;border-radius:8px;overflow:hidden}',
+    '.league-section{margin-bottom:40px;transition:opacity 0.2s;background:#111;border:1px solid #1e1e1e;border-radius:8px;overflow:hidden}',
     '.league-section:last-child{margin-bottom:0}',
     '.league-section.hidden{display:none}',
     '.division-bar{display:flex;align-items:center;gap:10px;padding:10px 14px;margin-bottom:0;border-radius:0;background:#161616;border-bottom:1px solid #1e1e1e}',
