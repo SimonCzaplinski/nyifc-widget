@@ -80,7 +80,7 @@
     "@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');",
     '*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}',
     ':host{display:block;font-family:"Poppins",sans-serif;color:#fff;overflow:hidden}',
-    '.widget{max-width:920px;margin:0 auto;padding:24px 16px 40px;background:#0d0d0d}',
+    '.widget{max-width:920px;margin:0 auto;padding:24px 16px 40px;background:transparent}',
 
     /* ── Header ── */
     '.widget-header{text-align:center;margin-bottom:28px}',
