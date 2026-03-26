@@ -44,7 +44,7 @@
         { rank: 13,  team: 'Kickoff FC',                                    gp: 13, w: 2, d: 4, l: 7,  gf: 17, ga: 28, gd: -11, pts: 10, logo: 'https://www.cosmosoccerleague.com/MediaContent//2025/07/29/11/u_KOFC_1753812149921_1_247357.jpg' },
         { rank: 14,  team: 'SC Eintracht',                                  gp: 12, w: 3, d: 1, l: 8,  gf: 22, ga: 26, gd: -4, pts: 10, logo: 'https://www.cosmosoccerleague.com/MediaContent//2022/08/08/21/5504_229911.png' },
         { rank: 15,  team: 'Yemen United SC',                               gp: 11, w: 2, d: 1, l: 8,  gf: 21, ga: 42, gd: -21, pts: 7, logo: 'https://www.cosmosoccerleague.com/MediaContent//2025/08/13/13/u_Yemen_1755117666949_1_80271343_247539.jpg' },
-        { rank: 16,  team: 'Vllaznia NYC',                                  gp: 10, w: 1, d: 1, l: 8,  gf: 11, ga: 40, gd: -29, pts: 0, logo: 'https://www.cosmosoccerleague.com/MediaContent//2025/08/21/09/u_3fdcf2db_c33b_4548_bb79_6afdaa3f4e28_1755792931493_1_80271343_247646.jpeg' },
+        { rank: 16,  team: 'Vllaznia NYC',                                  gp: 10, w: 1, d: 1, l: 8,  gf: 11, ga: 40, gd: -29, pts: 1, logo: 'https://www.cosmosoccerleague.com/MediaContent//2025/08/21/09/u_3fdcf2db_c33b_4548_bb79_6afdaa3f4e28_1755792931493_1_80271343_247646.jpeg' },
         { rank: 17,  team: 'Desportiva Sociedad NY',                        gp: 0, w: 0, d: 0, l: 0,  gf: 0, ga: 0, gd: 0,  pts: 0, logo: 'https://www.cosmosoccerleague.com/MediaContent//2022/08/08/20/3948_229904.png' }
       ]
     },
