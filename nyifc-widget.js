@@ -16,7 +16,7 @@
     {d:"2025-11-23",t:"7:30 PM",o:"Sporting Astoria South Bronx United",l:"Soundview Park",h:"away",r:"draw",s:"2 - 2",m:"csl2",ml:"CSL"},
     {d:"2026-03-08",t:"12:00 PM",o:"Stal Mielec NY",l:"Randalls Island - Field 72",h:"home",r:"loss",s:"1 - 4",m:"csl2",ml:"CSL"},
     {d:"2026-03-15",t:"10:00 AM",o:"Vllaznia NYC",l:"Mccarren Park",h:"home",r:"win",s:"3 - 0",m:"csl2",ml:"CSL"},
-    {d:"2026-03-26",t:"8:00 PM",o:"NY Galicia",l:"Randalls Island - Field 70",h:"home",r:"upcoming",s:"",m:"csl2",ml:"CSL"},
+    {d:"2026-03-26",t:"8:00 PM",o:"NY Galicia",l:"Randalls Island - Field 70",h:"home",r:"loss",s:"0 - 2",m:"csl2",ml:"CSL"},
     {d:"2026-03-29",t:"4:00 PM",o:"Vibes FC",l:"Randalls Island - Field 82",h:"away",r:"upcoming",s:"",m:"csl2",ml:"CSL"},
     {d:"2026-04-12",t:"3:00 PM",o:"NY Shamrocks",l:"Randalls Island - Field 75",h:"away",r:"upcoming",s:"",m:"csl2",ml:"CSL"},
     {d:"2026-04-26",t:"TBD",o:"Vllaznia NYC",l:"TBD",h:"away",r:"upcoming",s:"",m:"csl2",ml:"CSL"},
