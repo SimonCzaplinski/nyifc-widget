@@ -55,7 +55,7 @@
       highlight: 'NY International FC III',
       standings: [
         { rank: 1,  team: 'NY Finest FC II',                               gp: 11, w: 8, d: 2, l: 1,  gf: 27, ga: 8, gd: 19,  pts: 26, logo: 'https://www.cosmosoccerleague.com/MediaContent//2022/08/12/03/9689569796895697_229974.jpg' },
-        { rank: 2,  team: 'NY International FC III',                       gp: 12, w: 7, d: 3, l: 2,  gf: 44, ga: 21, gd: 23,  pts: 24, logo: 'https://www.cosmosoccerleague.com/MediaContent//2022/08/08/21/STAR_229908.jpeg' },
+        { rank: 2,  team: 'NY International FC III',                       gp: 13, w: 7, d: 4, l: 2,  gf: 44, ga: 21, gd: 23,  pts: 25, logo: 'https://www.cosmosoccerleague.com/MediaContent//2022/08/08/21/STAR_229908.jpeg' },
         { rank: 3,  team: 'Central Park Rangers Lower East II',            gp: 12, w: 6, d: 3, l: 3,  gf: 34, ga: 31, gd: 3,  pts: 21, logo: 'https://www.cosmosoccerleague.com/MediaContent//2024/09/03/09/cpr_Logo_243235.png' },
         { rank: 4,  team: 'Sporting Astoria South Bronx United II',        gp: 12, w: 6, d: 2, l: 4,  gf: 34, ga: 22, gd: 12,  pts: 20, logo: 'https://www.cosmosoccerleague.com/MediaContent//2025/04/16/10/u_SASC_Logo_2025_1744823413706_1_245533.jpeg' },
         { rank: 5,  team: 'NY Shamrocks II',                               gp: 11, w: 6, d: 2, l: 3,  gf: 31, ga: 20, gd: 11,  pts: 20, logo: 'https://www.cosmosoccerleague.com/MediaContent//2022/09/12/18/Shamrock_230469.jpg' },
@@ -64,7 +64,7 @@
         { rank: 8,  team: 'Yemen United SC II',                            gp: 11, w: 5, d: 2, l: 4,  gf: 25, ga: 27, gd: -2, pts: 17, logo: 'https://www.cosmosoccerleague.com/MediaContent//2025/08/13/13/u_Yemen_1755117666949_1_80271343_247539.jpg' },
         { rank: 9,  team: 'Stal Mielec NY II',                             gp: 12, w: 5, d: 1, l: 6,  gf: 18, ga: 27, gd: -9, pts: 16, logo: 'https://www.cosmosoccerleague.com/MediaContent//2022/09/04/00/587_230430.png' },
         { rank: 10,  team: 'Williamsburg International FC II',              gp: 12, w: 4, d: 3, l: 5,  gf: 22, ga: 28, gd: -6, pts: 15, logo: 'https://www.cosmosoccerleague.com/MediaContent//2022/08/09/23/WIFC_Crest_Green_229943.png' },
-        { rank: 11,  team: 'NY Galicia II',                                 gp: 11, w: 4, d: 2, l: 5,  gf: 26, ga: 28, gd: -2, pts: 14, logo: 'https://www.cosmosoccerleague.com/MediaContent//2022/08/12/03/18622540_10154401704622007_4567169214813878094_n_229969.jpg' },
+        { rank: 11,  team: 'NY Galicia II',                                 gp: 12, w: 4, d: 3, l: 5,  gf: 26, ga: 28, gd: -2, pts: 15, logo: 'https://www.cosmosoccerleague.com/MediaContent//2022/08/12/03/18622540_10154401704622007_4567169214813878094_n_229969.jpg' },
         { rank: 12,  team: 'FC Japan II',                                   gp: 12, w: 3, d: 3, l: 6,  gf: 18, ga: 26, gd: -8, pts: 12, logo: 'https://www.cosmosoccerleague.com/MediaContent//2022/08/08/20/1_blog_icon_229905.jpeg' },
         { rank: 13,  team: 'Vllaznia NYC II',                               gp: 11, w: 3, d: 2, l: 6,  gf: 23, ga: 32, gd: -9, pts: 11, logo: 'https://www.cosmosoccerleague.com/MediaContent//2025/08/21/09/u_3fdcf2db_c33b_4548_bb79_6afdaa3f4e28_1755792931493_1_80271343_247646.jpeg' },
         { rank: 14,  team: 'ERFC II',                                       gp: 12, w: 3, d: 2, l: 7,  gf: 17, ga: 31, gd: -14, pts: 11, logo: 'https://www.cosmosoccerleague.com/MediaContent//2025/08/28/08/u_PHOTO_2025_07_03_00_32_10_1756395120254_1_81226896_247691.png' },
