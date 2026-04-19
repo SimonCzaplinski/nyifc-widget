@@ -76,6 +76,25 @@
   function tD(){var n=new Date();return new Date(n.getFullYear(),n.getMonth(),n.getDate());}
   function fG(){return GAMES.filter(function(g){return aT.has(g.m);});}
 
+  var gwMap={};
+  var gwTotal={};
+  (function(){
+    var byTeam={};
+    GAMES.forEach(function(g){
+      if(!byTeam[g.m])byTeam[g.m]=[];
+      byTeam[g.m].push(g);
+    });
+    Object.keys(byTeam).forEach(function(tm){
+      var sorted=byTeam[tm].slice().sort(function(a,b){return a.d.localeCompare(b.d);});
+      gwTotal[tm]=sorted.length;
+      sorted.forEach(function(g,i){
+        gwMap[g.m+"|"+g.d+"|"+g.o]=i+1;
+      });
+    });
+  })();
+  function gw(g){return gwMap[g.m+"|"+g.d+"|"+g.o]||0;}
+  function gwT(g){return gwTotal[g.m]||0;}
+
   function mkCard(g){
     var d=pD(g.d),ms=MN[d.getMonth()].slice(0,3).toUpperCase(),dn=d.getDate(),wd=DS[d.getDay()];
     var mt='<span class="bd '+(g.h==="home"?"hm":"aw")+'">'+g.h+'</span>';
@@ -85,7 +104,9 @@
       mt+='<span class="rb '+rc+'">'+rl+'</span><span class="st">'+g.s+'</span>';
     }
     var pf=g.h==="away"?"@ ":"vs ";
-    return '<div class="gc '+tc[g.m]+'"><div class="gd"><span class="gm">'+ms+'</span><span class="gdy">'+dn+'</span><span class="gw">'+wd+'</span></div><div class="gi"><div class="go">'+pf+g.o+'</div><div class="gdt">'+g.t+(g.l!=="TBD"?" \u00b7 "+g.l:"")+'</div><div class="gtl '+cc[g.m]+'">'+g.ml+'</div></div><div class="gme">'+mt+'</div></div>';
+    var gwn=gw(g),gwt=gwT(g);
+    var gwh=gwn?'<div class="gwk">Game '+gwn+' of '+gwt+'</div>':'';
+    return '<div class="gc '+tc[g.m]+'"><div class="gd"><span class="gm">'+ms+'</span><span class="gdy">'+dn+'</span><span class="gw">'+wd+'</span></div><div class="gi"><div class="go">'+pf+g.o+'</div><div class="gdt">'+g.t+(g.l!=="TBD"?" \u00b7 "+g.l:"")+'</div><div class="gtl '+cc[g.m]+'">'+g.ml+gwh+'</div></div><div class="gme">'+mt+'</div></div>';
   }
 
   function initCM(){
@@ -180,6 +201,7 @@
     +'.gdt{font-size:13px;color:rgba(255,255,255,0.5);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}'
     +'.gtl{font-size:12px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;margin-top:1px;}'
     +'.gtl.c1{color:#C9A84C;}.gtl.c2{color:#5B9BD5;}.gtl.c3{color:#E07C4F;}'
+    +'.gwk{display:inline;font-size:10px;font-weight:500;letter-spacing:0.5px;color:rgba(255,255,255,0.35);margin-left:8px;text-transform:none;}'
     +'.gme{display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0;}'
     +'.bd{font-size:10px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;padding:4px 10px;border-radius:4px;}'
     +'.bd.hm{background:#C9A84C;color:#0d0d0d;}.bd.aw{background:rgba(201,168,76,0.3);color:#fff;}'
@@ -187,7 +209,7 @@
     +'.rb.w{background:rgba(76,175,80,0.2);color:#4CAF50;}.rb.l{background:rgba(229,57,53,0.2);color:#E53935;}.rb.d{background:rgba(158,158,158,0.15);color:#9E9E9E;}'
     +'.st{font-size:15px;font-weight:700;color:rgba(255,255,255,0.6);}'
     +'.em{text-align:center;color:rgba(255,255,255,0.5);font-size:13px;padding:24px 0;}'
-    +'@media(max-width:600px){.root{padding:16px 10px;}.cc{min-height:60px;padding:3px;}.ce{font-size:7px;padding:1px 3px;}.cdh{font-size:9px;padding:6px 2px;}.gc{grid-template-columns:58px 1fr auto;gap:10px;padding:10px 12px;}.gme{flex-direction:row;align-items:center;gap:6px;flex-wrap:wrap;justify-content:flex-end;}.gd .gdy{font-size:28px;}.gd .gm{font-size:11px;}.gd .gw{font-size:11px;}.go{font-size:16px;}.gdt{font-size:12px;}.gtl{font-size:11px;}.bd{font-size:9px;padding:3px 8px;}.rb{font-size:9px;padding:3px 8px;}.st{font-size:13px;}.fb{font-size:8px;padding:5px 10px;}}';
+    +'@media(max-width:600px){.root{padding:16px 10px;}.cc{min-height:60px;padding:3px;}.ce{font-size:7px;padding:1px 3px;}.cdh{font-size:9px;padding:6px 2px;}.gc{grid-template-columns:58px 1fr auto;gap:10px;padding:10px 12px;}.gme{flex-direction:row;align-items:center;gap:6px;flex-wrap:wrap;justify-content:flex-end;}.gd .gdy{font-size:28px;}.gd .gm{font-size:11px;}.gd .gw{font-size:11px;}.go{font-size:16px;}.gdt{font-size:12px;}.gtl{font-size:11px;}.bd{font-size:9px;padding:3px 8px;}.rb{font-size:9px;padding:3px 8px;}.st{font-size:13px;}.fb{font-size:8px;padding:5px 10px;}.gwk{font-size:9px;margin-left:6px;}}';
 
   var htmlContent='<div class="root">'
     +'<div class="sh"><h2>Match Schedule</h2><div class="sn">2025 / 2026 Season</div></div>'
