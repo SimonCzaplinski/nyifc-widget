@@ -20,7 +20,7 @@
     {d:"2026-03-29",t:"4:00 PM",o:"Vibes FC",l:"Randalls Island - Field 82",h:"away",r:"loss",s:"2 - 1",m:"csl2",ml:"CSL"},
     {d:"2026-04-12",t:"3:00 PM",o:"NY Shamrocks",l:"Randalls Island - Field 75",h:"away",r:"win",s:"1 - 7",m:"csl2",ml:"CSL"},
     {d:"2026-04-26",t:"6:00 PM",o:"Vllaznia NYC",l:"Randalls Island - Field 75",h:"away",r:"win",s:"1 - 4",m:"csl2",ml:"CSL"},
-    {d:"2026-05-03",t:"4:00 PM",o:"SC Eintracht",l:"Russo Farm Field",h:"away",r:"upcoming",s:"",m:"csl2",ml:"CSL"},
+    {d:"2026-05-03",t:"4:00 PM",o:"SC Eintracht",l:"Russo Farm Field",h:"away",r:"win",s:"1 - 7",m:"csl2",ml:"CSL"},
     {d:"2026-05-16",t:"8:00 PM",o:"NY Finest FC",l:"Randalls Island - Field 74",h:"home",r:"upcoming",s:"",m:"csl2",ml:"CSL"},
     {d:"2025-09-07",t:"12:00 PM",o:"Brooklyn City FC II",l:"Bush Terminal Piers Park",h:"away",r:"win",s:"0 - 8",m:"csl2r",ml:"CSL Reserve"},
     {d:"2025-09-14",t:"2:00 PM",o:"Williamsburg International FC II",l:"Bushwick Inlet",h:"away",r:"draw",s:"3 - 3",m:"csl2r",ml:"CSL Reserve"},
@@ -38,7 +38,7 @@
     {d:"2026-03-29",t:"2:00 PM",o:"Vibes FC II",l:"Randalls Island - Field 82",h:"away",r:"draw",s:"2 - 2",m:"csl2r",ml:"CSL Reserve"},
     {d:"2026-04-12",t:"1:00 PM",o:"NY Shamrocks II",l:"Randalls Island - Field 75",h:"away",r:"draw",s:"0 - 0",m:"csl2r",ml:"CSL Reserve"},
     {d:"2026-04-26",t:"4:00 PM",o:"Vllaznia NYC II",l:"Randall's Island - Field 75",h:"away",r:"win",s:"1 - 3",m:"csl2r",ml:"CSL Reserve"},
-    {d:"2026-05-03",t:"2:00 PM",o:"SC Eintracht II",l:"Russo Farm Field",h:"away",r:"upcoming",s:"",m:"csl2r",ml:"CSL Reserve"},
+    {d:"2026-05-03",t:"2:00 PM",o:"SC Eintracht II",l:"Russo Farm Field",h:"away",r:"win",s:"0 - 7",m:"csl2r",ml:"CSL Reserve"},
     {d:"2026-05-16",t:"6:00 PM",o:"NY Finest FC II",l:"Randall's Island - Field 74",h:"home",r:"upcoming",s:"",m:"csl2r",ml:"CSL Reserve"},
     {d:"2025-09-07",t:"4:00 PM",o:"SC Vistula Garfield",l:"Roosevelt Island - Jack Mcmanus Field",h:"home",r:"win",s:"3 - 2",m:"apsl",ml:"APSL"},
     {d:"2025-09-14",t:"7:30 PM",o:"Zum Schneider FC 03",l:"Roosevelt Island - Jack Mcmanus Field",h:"away",r:"win",s:"1 - 3",m:"apsl",ml:"APSL"},
@@ -59,8 +59,8 @@
     {d:"2026-04-12",t:"2:30 PM",o:"Lansdowne Yonkers FC",l:"Roosevelt Island - Jack Mcmanus Field",h:"home",r:"loss",s:"2 - 4",m:"apsl",ml:"APSL"},
     {d:"2026-04-19",t:"2:30 PM",o:"Central Park Rangers FC",l:"Roosevelt Island - Jack Mcmanus Field",h:"home",r:"win",s:"3 - 1",m:"apsl",ml:"APSL"},
     {d:"2026-04-26",t:"4:00 PM",o:"Hoboken FC 1912",l:"Laurel Hill Park",h:"away",r:"loss",s:"3 - 1",m:"apsl",ml:"APSL"},
-    {d:"2026-05-03",t:"2:00 PM",o:"Leros SC",l:"Roosevelt Island - Jack Mcmanus Field",h:"home",r:"upcoming",s:"",m:"apsl",ml:"APSL"},
-    {d:"2026-05-10",t:"2:30 PM",o:"Richmond County FC",l:"Roosevelt Island - Jack Mcmanus Field",h:"home",r:"upcoming",s:"",m:"apsl",ml:"APSL"},
+    {d:"2026-05-03",t:"2:00 PM",o:"Leros SC",l:"Roosevelt Island - Jack Mcmanus Field",h:"home",r:"loss",s:"1 - 5",m:"apsl",ml:"APSL"},
+    {d:"2026-05-10",t:"2:00 PM",o:"Richmond County FC",l:"Roosevelt Island - Jack Mcmanus Field",h:"home",r:"upcoming",s:"",m:"apsl",ml:"APSL"},
     {d:"2026-05-16",t:"7:30 PM",o:"SC Vistula Garfield",l:"Garfield High School",h:"away",r:"upcoming",s:"",m:"apsl",ml:"APSL"}
   ];
 
