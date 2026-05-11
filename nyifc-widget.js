@@ -60,7 +60,7 @@
     {d:"2026-04-19",t:"2:30 PM",o:"Central Park Rangers FC",l:"Roosevelt Island - Jack Mcmanus Field",h:"home",r:"win",s:"3 - 1",m:"apsl",ml:"APSL"},
     {d:"2026-04-26",t:"4:00 PM",o:"Hoboken FC 1912",l:"Laurel Hill Park",h:"away",r:"loss",s:"3 - 1",m:"apsl",ml:"APSL"},
     {d:"2026-05-03",t:"2:00 PM",o:"Leros SC",l:"Roosevelt Island - Jack Mcmanus Field",h:"home",r:"loss",s:"1 - 5",m:"apsl",ml:"APSL"},
-    {d:"2026-05-10",t:"2:00 PM",o:"Richmond County FC",l:"Roosevelt Island - Jack Mcmanus Field",h:"home",r:"upcoming",s:"",m:"apsl",ml:"APSL"},
+    {d:"2026-05-10",t:"2:00 PM",o:"Richmond County FC",l:"Roosevelt Island - Jack Mcmanus Field",h:"home",r:"draw",s:"1 - 1",m:"apsl",ml:"APSL"},
     {d:"2026-05-16",t:"7:30 PM",o:"SC Vistula Garfield",l:"Garfield High School",h:"away",r:"upcoming",s:"",m:"apsl",ml:"APSL"}
   ];
 
