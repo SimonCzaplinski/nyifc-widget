@@ -43,7 +43,7 @@
     {d:"2026-05-03",t:"2:00 PM",o:"SC Eintracht II",l:"Russo Farm Field",h:"away",r:"win",s:"0 - 7",m:"csl2r",ml:"CSL Reserve"},
     {d:"2026-05-16",t:"6:00 PM",o:"NY Finest FC II",l:"Randall's Island - Field 74",h:"home",r:"loss",s:"1 - 2",m:"csl2r",ml:"CSL Reserve"},
     {d:"2026-05-31",t:"6:00 PM",o:"NY Shamrocks II",l:"Randalls Island - Field 70",h:"home",r:"win",s:"5 - 1",m:"csl2r",ml:"CSL Reserve"},
-    {d:"2026-06-07",t:"9:00 PM",o:"NY Finest FC II",l:"Randalls Island - Field 70",h:"away",r:"upcoming",s:"",m:"csl2r",ml:"CSL Reserve"},
+    {d:"2026-06-07",t:"9:00 PM",o:"NY Finest FC II",l:"Randalls Island - Field 70",h:"away",r:"loss",s:"3 - 0",m:"csl2r",ml:"CSL Reserve"},
     {d:"2025-09-07",t:"4:00 PM",o:"SC Vistula Garfield",l:"Roosevelt Island - Jack Mcmanus Field",h:"home",r:"win",s:"3 - 2",m:"apsl",ml:"APSL"},
     {d:"2025-09-14",t:"7:30 PM",o:"Zum Schneider FC 03",l:"Roosevelt Island - Jack Mcmanus Field",h:"away",r:"win",s:"1 - 3",m:"apsl",ml:"APSL"},
     {d:"2025-09-21",t:"4:00 PM",o:"Doxa FCW",l:"Roosevelt Island - Jack Mcmanus Field",h:"home",r:"win",s:"3 - 2",m:"apsl",ml:"APSL"},
