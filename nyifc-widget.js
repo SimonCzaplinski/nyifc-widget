@@ -3,76 +3,13 @@
   if(!host) return;
   var shadow = host.attachShadow({mode:"open"});
 
-  var GAMES=[
-    {d:"2025-09-07",t:"2:00 PM",o:"Brooklyn City FC",l:"Bush Terminal Piers Park",h:"away",r:"draw",s:"2 - 2",m:"csl2",ml:"CSL"},
-    {d:"2025-09-14",t:"4:00 PM",o:"Williamsburg International FC",l:"Bushwick Inlet",h:"away",r:"draw",s:"1 - 1",m:"csl2",ml:"CSL"},
-    {d:"2025-09-21",t:"10:00 AM",o:"NY Finest FC",l:"Flushing Meadows - Field 9",h:"away",r:"win",s:"1 - 4",m:"csl2",ml:"CSL"},
-    {d:"2025-09-28",t:"5:00 PM",o:"Kickoff FC",l:"College Point Field",h:"home",r:"draw",s:"1 - 1",m:"csl2",ml:"CSL"},
-    {d:"2025-10-05",t:"5:00 PM",o:"SC Eintracht",l:"College Point Field",h:"home",r:"win",s:"3 - 2",m:"csl2",ml:"CSL"},
-    {d:"2025-10-11",t:"8:00 PM",o:"Yemen United SC",l:"Randalls Island - Field 75",h:"away",r:"win",s:"2 - 4",m:"csl2",ml:"CSL"},
-    {d:"2025-10-26",t:"4:00 PM",o:"ERFC",l:"Randalls Island - Field 70",h:"home",r:"win",s:"3 - 1",m:"csl2",ml:"CSL"},
-    {d:"2025-11-01",t:"8:00 PM",o:"FC Japan",l:"Randall's Island - Field 74",h:"home",r:"win",s:"1 - 0",m:"csl2",ml:"CSL"},
-    {d:"2025-11-16",t:"12:00 PM",o:"Central Park Rangers Lower East",l:"Randalls Island - Field 72",h:"home",r:"win",s:"7 - 1",m:"csl2",ml:"CSL"},
-    {d:"2025-11-23",t:"7:30 PM",o:"Sporting Astoria South Bronx United",l:"Soundview Park",h:"away",r:"draw",s:"2 - 2",m:"csl2",ml:"CSL"},
-    {d:"2026-03-08",t:"12:00 PM",o:"Stal Mielec NY",l:"Randalls Island - Field 72",h:"home",r:"loss",s:"1 - 4",m:"csl2",ml:"CSL"},
-    {d:"2026-03-15",t:"10:00 AM",o:"Vllaznia NYC",l:"Mccarren Park",h:"home",r:"win",s:"3 - 0",m:"csl2",ml:"CSL"},
-    {d:"2026-03-26",t:"8:00 PM",o:"NY Galicia",l:"Randalls Island - Field 70",h:"home",r:"loss",s:"0 - 2",m:"csl2",ml:"CSL"},
-    {d:"2026-03-29",t:"4:00 PM",o:"Vibes FC",l:"Randalls Island - Field 82",h:"away",r:"loss",s:"2 - 1",m:"csl2",ml:"CSL"},
-    {d:"2026-04-12",t:"3:00 PM",o:"NY Shamrocks",l:"Randalls Island - Field 75",h:"away",r:"win",s:"1 - 7",m:"csl2",ml:"CSL"},
-    {d:"2026-04-26",t:"6:00 PM",o:"Vllaznia NYC",l:"Randalls Island - Field 75",h:"away",r:"win",s:"1 - 4",m:"csl2",ml:"CSL"},
-    {d:"2026-05-03",t:"4:00 PM",o:"SC Eintracht",l:"Russo Farm Field",h:"away",r:"win",s:"1 - 7",m:"csl2",ml:"CSL"},
-    {d:"2026-05-16",t:"8:00 PM",o:"NY Finest FC",l:"Randalls Island - Field 74",h:"home",r:"win",s:"3 - 0",m:"csl2",ml:"CSL"},
-    {d:"2026-05-31",t:"4:00 PM",o:"Vibes FC",l:"Randalls Island - Field 70",h:"away",r:"win",s:"1 - 4",m:"csl2",ml:"CSL"},
-    {d:"2026-06-07",t:"8:00 PM",o:"Brooklyn City FC",l:"Randalls Island - Field 74",h:"home",r:"win",s:"1 - 0",m:"csl2",ml:"CSL"},
-    {d:"2025-09-07",t:"12:00 PM",o:"Brooklyn City FC II",l:"Bush Terminal Piers Park",h:"away",r:"win",s:"0 - 8",m:"csl2r",ml:"CSL Reserve"},
-    {d:"2025-09-14",t:"2:00 PM",o:"Williamsburg International FC II",l:"Bushwick Inlet",h:"away",r:"draw",s:"3 - 3",m:"csl2r",ml:"CSL Reserve"},
-    {d:"2025-09-21",t:"8:00 AM",o:"NY Finest FC II",l:"Flushing Meadows - Field 9",h:"away",r:"loss",s:"6 - 1",m:"csl2r",ml:"CSL Reserve"},
-    {d:"2025-09-28",t:"3:00 PM",o:"Kickoff FC II",l:"College Point Field",h:"home",r:"win",s:"2 - 0",m:"csl2r",ml:"CSL Reserve"},
-    {d:"2025-10-05",t:"3:00 PM",o:"SC Eintracht II",l:"College Point Field",h:"home",r:"loss",s:"2 - 3",m:"csl2r",ml:"CSL Reserve"},
-    {d:"2025-10-11",t:"6:00 PM",o:"Yemen United SC II",l:"Randalls Island - Field 75",h:"away",r:"win",s:"1 - 7",m:"csl2r",ml:"CSL Reserve"},
-    {d:"2025-10-26",t:"2:00 PM",o:"ERFC II",l:"Randall's Island - Field 70",h:"home",r:"win",s:"4 - 0",m:"csl2r",ml:"CSL Reserve"},
-    {d:"2025-11-01",t:"6:00 PM",o:"FC Japan II",l:"Randall's Island - Field 74",h:"home",r:"win",s:"3 - 0",m:"csl2r",ml:"CSL Reserve"},
-    {d:"2025-11-16",t:"10:00 AM",o:"Central Park Rangers Lower East II",l:"Randalls Island - Field 72",h:"home",r:"draw",s:"3 - 3",m:"csl2r",ml:"CSL Reserve"},
-    {d:"2025-11-23",t:"5:30 PM",o:"Sporting Astoria South Bronx United II",l:"Soundview Park",h:"away",r:"draw",s:"3 - 3",m:"csl2r",ml:"CSL Reserve"},
-    {d:"2026-03-08",t:"10:00 AM",o:"Stal Mielec NY II",l:"Randalls Island - Field 72",h:"home",r:"win",s:"5 - 1",m:"csl2r",ml:"CSL Reserve"},
-    {d:"2026-03-15",t:"8:00 AM",o:"Vllaznia NYC II",l:"Mccarren Park",h:"home",r:"win",s:"3 - 1",m:"csl2r",ml:"CSL Reserve"},
-    {d:"2026-03-24",t:"9:00 PM",o:"NY Galicia II",l:"Randall's Island - Field 75",h:"home",r:"draw",s:"0 - 0",m:"csl2r",ml:"CSL Reserve"},
-    {d:"2026-03-29",t:"2:00 PM",o:"Vibes FC II",l:"Randalls Island - Field 82",h:"away",r:"draw",s:"2 - 2",m:"csl2r",ml:"CSL Reserve"},
-    {d:"2026-04-12",t:"1:00 PM",o:"NY Shamrocks II",l:"Randalls Island - Field 75",h:"away",r:"draw",s:"0 - 0",m:"csl2r",ml:"CSL Reserve"},
-    {d:"2026-04-26",t:"4:00 PM",o:"Vllaznia NYC II",l:"Randall's Island - Field 75",h:"away",r:"win",s:"1 - 3",m:"csl2r",ml:"CSL Reserve"},
-    {d:"2026-05-03",t:"2:00 PM",o:"SC Eintracht II",l:"Russo Farm Field",h:"away",r:"win",s:"0 - 7",m:"csl2r",ml:"CSL Reserve"},
-    {d:"2026-05-16",t:"6:00 PM",o:"NY Finest FC II",l:"Randall's Island - Field 74",h:"home",r:"loss",s:"1 - 2",m:"csl2r",ml:"CSL Reserve"},
-    {d:"2026-05-31",t:"6:00 PM",o:"NY Shamrocks II",l:"Randalls Island - Field 70",h:"home",r:"win",s:"5 - 1",m:"csl2r",ml:"CSL Reserve"},
-    {d:"2026-06-07",t:"9:00 PM",o:"NY Finest FC II",l:"Randalls Island - Field 70",h:"away",r:"loss",s:"3 - 0",m:"csl2r",ml:"CSL Reserve"},
-    {d:"2025-09-07",t:"4:00 PM",o:"SC Vistula Garfield",l:"Roosevelt Island - Jack Mcmanus Field",h:"home",r:"win",s:"3 - 2",m:"apsl",ml:"APSL"},
-    {d:"2025-09-14",t:"7:30 PM",o:"Zum Schneider FC 03",l:"Roosevelt Island - Jack Mcmanus Field",h:"away",r:"win",s:"1 - 3",m:"apsl",ml:"APSL"},
-    {d:"2025-09-21",t:"4:00 PM",o:"Doxa FCW",l:"Roosevelt Island - Jack Mcmanus Field",h:"home",r:"win",s:"3 - 2",m:"apsl",ml:"APSL"},
-    {d:"2025-09-28",t:"7:00 PM",o:"Leros SC",l:"Susa Orlin & Cohen Sports Complex - Field 1",h:"away",r:"loss",s:"2 - 1",m:"apsl",ml:"APSL"},
-    {d:"2025-10-05",t:"4:00 PM",o:"NY Pancyprian Freedoms",l:"Roosevelt Island - Jack Mcmanus Field",h:"home",r:"loss",s:"1 - 4",m:"apsl",ml:"APSL"},
-    {d:"2025-10-14",t:"8:30 PM",o:"Lansdowne Yonkers FC",l:"Tibbetts Brook Park - Field 3",h:"away",r:"loss",s:"4 - 0",m:"apsl",ml:"APSL"},
-    {d:"2025-10-26",t:"4:00 PM",o:"Hoboken FC 1912",l:"Roosevelt Island - Jack Mcmanus Field",h:"home",r:"loss",s:"0 - 2",m:"apsl",ml:"APSL"},
-    {d:"2025-11-02",t:"12:15 PM",o:"NY Athletic Club",l:"Travers Island",h:"away",r:"win",s:"1 - 2",m:"apsl",ml:"APSL"},
-    {d:"2025-11-16",t:"4:00 PM",o:"Central Park Rangers FC",l:"Roosevelt Island - Jack Mcmanus Field",h:"away",r:"draw",s:"2 - 2",m:"apsl",ml:"APSL"},
-    {d:"2025-11-23",t:"2:30 PM",o:"NY Greek Americans",l:"Roosevelt Island - Jack Mcmanus Field",h:"home",r:"loss",s:"1 - 4",m:"apsl",ml:"APSL"},
-    {d:"2026-01-11",t:"1:00 PM",o:"Richmond County FC",l:"Owl Hollow Field",h:"away",r:"loss",s:"4 - 2",m:"apsl",ml:"APSL"},
-    {d:"2026-03-08",t:"2:00 PM",o:"NY Pancyprian Freedoms",l:"Queens College",h:"away",r:"loss",s:"4 - 0",m:"apsl",ml:"APSL"},
-    {d:"2026-03-15",t:"8:00 PM",o:"Doxa FCW",l:"Joseph F. Fosina Field",h:"away",r:"loss",s:"5 - 1",m:"apsl",ml:"APSL"},
-    {d:"2026-03-19",t:"8:00 PM",o:"NY Greek Americans",l:"Hofstra University Soccer Stadium",h:"away",r:"draw",s:"2 - 2",m:"apsl",ml:"APSL"},
-    {d:"2026-03-22",t:"7:30 PM",o:"NY Athletic Club",l:"Joseph F. Fosina Field",h:"home",r:"loss",s:"1 - 3",m:"apsl",ml:"APSL"},
-    {d:"2026-03-29",t:"11:00 AM",o:"Zum Schneider FC 03",l:"Randalls Island - Icahn Stadium",h:"home",r:"draw",s:"2 - 2",m:"apsl",ml:"APSL"},
-    {d:"2026-04-12",t:"2:30 PM",o:"Lansdowne Yonkers FC",l:"Roosevelt Island - Jack Mcmanus Field",h:"home",r:"loss",s:"2 - 4",m:"apsl",ml:"APSL"},
-    {d:"2026-04-19",t:"2:30 PM",o:"Central Park Rangers FC",l:"Roosevelt Island - Jack Mcmanus Field",h:"home",r:"win",s:"3 - 1",m:"apsl",ml:"APSL"},
-    {d:"2026-04-26",t:"4:00 PM",o:"Hoboken FC 1912",l:"Laurel Hill Park",h:"away",r:"loss",s:"3 - 1",m:"apsl",ml:"APSL"},
-    {d:"2026-05-03",t:"2:00 PM",o:"Leros SC",l:"Roosevelt Island - Jack Mcmanus Field",h:"home",r:"loss",s:"1 - 5",m:"apsl",ml:"APSL"},
-    {d:"2026-05-10",t:"2:00 PM",o:"Richmond County FC",l:"Roosevelt Island - Jack Mcmanus Field",h:"home",r:"draw",s:"1 - 1",m:"apsl",ml:"APSL"},
-    {d:"2026-05-16",t:"7:30 PM",o:"SC Vistula Garfield",l:"Garfield High School",h:"away",r:"loss",s:"6 - 1",m:"apsl",ml:"APSL"}
-  ];
+  var GAMES=[];
 
   var MN=["January","February","March","April","May","June","July","August","September","October","November","December"];
   var DS=["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
-  var aT=new Set(["csl2","csl2r","apsl"]);
-  var tc={"csl2":"tc1","csl2r":"tc2","apsl":"tc3"};
-  var cc={"csl2":"c1","csl2r":"c2","apsl":"c3"};
+  var aT=new Set(["csl1","csl1r"]);
+  var tc={"csl1":"tc1","csl1r":"tc2"};
+  var cc={"csl1":"c1","csl1r":"c2"};
   var cY,cM;
 
   function pD(s){var p=s.split("-").map(Number);return new Date(p[0],p[1]-1,p[2]);}
@@ -187,7 +124,7 @@
     +'.ces{display:flex;flex-direction:column;gap:2px;margin-top:auto;min-width:0;}'
     +'.ce{font-size:8px;font-weight:500;padding:2px 4px;border-radius:3px;line-height:1.3;cursor:pointer;transition:opacity 0.2s;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%;display:block;}'
     +'.ce:hover{opacity:0.8;}'
-    +'.ce.tc1{background:#C9A84C;color:#0d0d0d;}.ce.tc2{background:#5B9BD5;color:#0d0d0d;}.ce.tc3{background:#E07C4F;color:#0d0d0d;}'
+    +'.ce.tc1{background:#C9A84C;color:#0d0d0d;}.ce.tc2{background:#5B9BD5;color:#0d0d0d;}'
     +'.ce .et{font-weight:700;}'
     +'.lg{display:flex;gap:20px;justify-content:center;margin-bottom:32px;flex-wrap:wrap;}'
     +'.li{display:flex;align-items:center;gap:6px;font-size:10px;font-weight:500;letter-spacing:1px;text-transform:uppercase;color:rgba(255,255,255,0.5);}'
@@ -195,7 +132,7 @@
     +'.gl{display:flex;flex-direction:column;gap:8px;margin-bottom:24px;}'
     +'.gc{display:grid;grid-template-columns:64px 1fr auto;align-items:center;gap:12px;background:#151515;border:1px solid #222;border-radius:6px;padding:10px 14px;transition:border-color 0.2s;border-left:3px solid #222;}'
     +'.gc:hover{border-color:rgba(201,168,76,0.4);}'
-    +'.gc.tc1{border-left-color:#C9A84C;}.gc.tc2{border-left-color:#5B9BD5;}.gc.tc3{border-left-color:#E07C4F;}'
+    +'.gc.tc1{border-left-color:#C9A84C;}.gc.tc2{border-left-color:#5B9BD5;}'
     +'.gd{display:flex;flex-direction:column;align-items:center;text-align:center;}'
     +'.gd .gm{font-size:12px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#C9A84C;}'
     +'.gd .gdy{font-size:32px;font-weight:700;line-height:1;color:#fff;}'
@@ -204,7 +141,7 @@
     +'.go{font-size:18px;font-weight:600;color:#fff;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}'
     +'.gdt{font-size:13px;color:rgba(255,255,255,0.5);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}'
     +'.gtl{font-size:12px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;margin-top:1px;}'
-    +'.gtl.c1{color:#C9A84C;}.gtl.c2{color:#5B9BD5;}.gtl.c3{color:#E07C4F;}'
+    +'.gtl.c1{color:#C9A84C;}.gtl.c2{color:#5B9BD5;}'
     +'.gwk{display:inline;font-size:10px;font-weight:500;letter-spacing:0.5px;color:rgba(255,255,255,0.35);margin-left:8px;text-transform:none;}'
     +'.gme{display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0;}'
     +'.bd{font-size:10px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;padding:4px 10px;border-radius:4px;}'
@@ -216,12 +153,11 @@
     +'@media(max-width:600px){.root{padding:16px 10px;}.cc{min-height:60px;padding:3px;}.ce{font-size:7px;padding:1px 3px;}.cdh{font-size:9px;padding:6px 2px;}.gc{grid-template-columns:58px 1fr auto;gap:10px;padding:10px 12px;}.gme{flex-direction:row;align-items:center;gap:6px;flex-wrap:wrap;justify-content:flex-end;}.gd .gdy{font-size:28px;}.gd .gm{font-size:11px;}.gd .gw{font-size:11px;}.go{font-size:16px;}.gdt{font-size:12px;}.gtl{font-size:11px;}.bd{font-size:9px;padding:3px 8px;}.rb{font-size:9px;padding:3px 8px;}.st{font-size:13px;}.fb{font-size:8px;padding:5px 10px;}.gwk{font-size:9px;margin-left:6px;}}';
 
   var htmlContent='<div class="root">'
-    +'<div class="sh"><h2>Match Schedule</h2><div class="sn">2025 / 2026 Season</div></div>'
+    +'<div class="sh"><h2>Match Schedule</h2><div class="sn">2026 / 2027 Season</div></div>'
     +'<div class="fr" id="nfr">'
     +'<button class="fb ac" data-team="all"><span class="dt" style="background:#fff;"></span> All Teams</button>'
-    +'<button class="fb ac" data-team="apsl"><span class="dt" style="background:#E07C4F;"></span> APSL</button>'
-    +'<button class="fb ac" data-team="csl2"><span class="dt" style="background:#C9A84C;"></span> CSL</button>'
-    +'<button class="fb ac" data-team="csl2r"><span class="dt" style="background:#5B9BD5;"></span> CSL Reserve</button>'
+    +'<button class="fb ac" data-team="csl1"><span class="dt" style="background:#C9A84C;"></span> CSL</button>'
+    +'<button class="fb ac" data-team="csl1r"><span class="dt" style="background:#5B9BD5;"></span> CSL Reserve</button>'
     +'</div>'
     +'<div class="tr" id="ntr">'
     +'<button class="tb ac" data-tab="upcoming">Upcoming</button>'
@@ -234,7 +170,6 @@
     +'<div class="cn"><button id="npv">\u2039</button><span class="ml" id="nml"></span><button id="nnt">\u203A</button></div>'
     +'<div class="cg" id="ncg"></div>'
     +'<div class="lg">'
-    +'<div class="li"><div class="ls" style="background:#E07C4F;"></div>APSL</div>'
     +'<div class="li"><div class="ls" style="background:#C9A84C;"></div>CSL</div>'
     +'<div class="li"><div class="ls" style="background:#5B9BD5;"></div>CSL Reserve</div>'
     +'</div></div></div>';
@@ -244,10 +179,10 @@
   shadow.querySelector("#nfr").addEventListener("click",function(e){
     var btn=e.target.closest(".fb");if(!btn)return;
     var t=btn.dataset.team;
-    if(t==="all"){if(aT.size===3)aT.clear();else aT=new Set(["csl2","csl2r","apsl"]);}
+    if(t==="all"){if(aT.size===2)aT.clear();else aT=new Set(["csl1","csl1r"]);}
     else{if(aT.has(t))aT.delete(t);else aT.add(t);}
     shadow.querySelectorAll(".fb").forEach(function(b){
-      if(b.dataset.team==="all")b.classList.toggle("ac",aT.size===3);
+      if(b.dataset.team==="all")b.classList.toggle("ac",aT.size===2);
       else b.classList.toggle("ac",aT.has(b.dataset.team));
     });
     rAll();
