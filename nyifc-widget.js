@@ -3,7 +3,30 @@
   if(!host) return;
   var shadow = host.attachShadow({mode:"open"});
 
-  var GAMES=[];
+  var GAMES=[
+    {d:"2026-09-13",t:"4:00 PM",o:"NY Ukrainians",l:"Randalls Island - Field 74",h:"home",r:"upcoming",s:"",m:"csl1",ml:"CSL"},
+    {d:"2026-09-19",t:"8:00 PM",o:"Laberia FC",l:"Randalls Island - Field 75",h:"away",r:"upcoming",s:"",m:"csl1",ml:"CSL"},
+    {d:"2026-09-27",t:"TBD",o:"Brooklyn City FC",l:"TBD",h:"home",r:"upcoming",s:"",m:"csl1",ml:"CSL"},
+    {d:"2026-10-04",t:"4:00 PM",o:"New Amsterdam FC SBU",l:"Randalls Island - Field 74",h:"home",r:"upcoming",s:"",m:"csl1",ml:"CSL"},
+    {d:"2026-10-11",t:"TBD",o:"Manhattan Celtic",l:"TBD",h:"home",r:"upcoming",s:"",m:"csl1",ml:"CSL"},
+    {d:"2026-10-25",t:"4:00 PM",o:"NY Galicia",l:"Roosevelt Island - Jack Mcmanus Field",h:"away",r:"upcoming",s:"",m:"csl1",ml:"CSL"},
+    {d:"2026-11-01",t:"TBD",o:"Polonia SC",l:"TBD",h:"home",r:"upcoming",s:"",m:"csl1",ml:"CSL"},
+    {d:"2026-11-15",t:"TBD",o:"Central Park Rangers II",l:"TBD",h:"home",r:"upcoming",s:"",m:"csl1",ml:"CSL"},
+    {d:"2026-11-22",t:"4:15 PM",o:"Hoboken FC 1912 II",l:"Laurel Hill Park",h:"away",r:"upcoming",s:"",m:"csl1",ml:"CSL"},
+    {d:"2026-12-06",t:"TBD",o:"Braza Futbol",l:"TBD",h:"away",r:"upcoming",s:"",m:"csl1",ml:"CSL"},
+    {d:"2026-12-13",t:"TBD",o:"Manhattan Kickers",l:"TBD",h:"away",r:"upcoming",s:"",m:"csl1",ml:"CSL"},
+    {d:"2026-09-13",t:"2:00 PM",o:"NY Ukrainians II",l:"Randalls Island - Field 74",h:"home",r:"upcoming",s:"",m:"csl1r",ml:"CSL Reserve"},
+    {d:"2026-09-19",t:"6:00 PM",o:"Laberia FC II",l:"Randalls Island - Field 75",h:"away",r:"upcoming",s:"",m:"csl1r",ml:"CSL Reserve"},
+    {d:"2026-09-27",t:"TBD",o:"Brooklyn City FC II",l:"TBD",h:"home",r:"upcoming",s:"",m:"csl1r",ml:"CSL Reserve"},
+    {d:"2026-10-04",t:"2:00 PM",o:"New Amsterdam FC SBU II",l:"Randalls Island - Field 74",h:"home",r:"upcoming",s:"",m:"csl1r",ml:"CSL Reserve"},
+    {d:"2026-10-11",t:"TBD",o:"Manhattan Celtic II",l:"TBD",h:"home",r:"upcoming",s:"",m:"csl1r",ml:"CSL Reserve"},
+    {d:"2026-10-25",t:"2:00 PM",o:"NY Galicia II",l:"Roosevelt Island - Jack Mcmanus Field",h:"away",r:"upcoming",s:"",m:"csl1r",ml:"CSL Reserve"},
+    {d:"2026-11-01",t:"TBD",o:"Polonia SC II",l:"TBD",h:"home",r:"upcoming",s:"",m:"csl1r",ml:"CSL Reserve"},
+    {d:"2026-11-15",t:"TBD",o:"Central Park Rangers III",l:"TBD",h:"home",r:"upcoming",s:"",m:"csl1r",ml:"CSL Reserve"},
+    {d:"2026-11-22",t:"2:15 PM",o:"Hoboken FC 1912 III",l:"Laurel Hill Park",h:"away",r:"upcoming",s:"",m:"csl1r",ml:"CSL Reserve"},
+    {d:"2026-12-06",t:"TBD",o:"Braza Futbol II",l:"TBD",h:"away",r:"upcoming",s:"",m:"csl1r",ml:"CSL Reserve"},
+    {d:"2026-12-13",t:"TBD",o:"Manhattan Kickers II",l:"TBD",h:"away",r:"upcoming",s:"",m:"csl1r",ml:"CSL Reserve"}
+  ];
 
   var MN=["January","February","March","April","May","June","July","August","September","October","November","December"];
   var DS=["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
