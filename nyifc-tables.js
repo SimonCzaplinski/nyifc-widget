@@ -8,14 +8,40 @@
       conference: 'DIVISION 1',
       color: '#C9A84C',
       highlight: 'NY International FC',
-      standings: []
+      standings: [
+        { rank:  1,  team: 'Braza Futbol',                        gp: 0, w: 0, d: 0, l: 0,  gf: 0, ga: 0, gd: 0,  pts: 0, logo: 'https://www.cosmosoccerleague.com/MediaContent//2025/07/25/16/u_BF_1753487768998_1_247341.jpg' },
+        { rank:  2,  team: 'Brooklyn City FC',                    gp: 0, w: 0, d: 0, l: 0,  gf: 0, ga: 0, gd: 0,  pts: 0, logo: 'https://www.cosmosoccerleague.com/MediaContent//2022/09/12/14/Brooklyn%20City_230465.png' },
+        { rank:  3,  team: 'Central Park Rangers II',             gp: 0, w: 0, d: 0, l: 0,  gf: 0, ga: 0, gd: 0,  pts: 0, logo: 'https://www.cosmosoccerleague.com/MediaContent//2024/09/03/09/cpr_Logo_243235.png' },
+        { rank:  4,  team: 'Hoboken FC 1912 II',                  gp: 0, w: 0, d: 0, l: 0,  gf: 0, ga: 0, gd: 0,  pts: 0, logo: 'https://www.cosmosoccerleague.com/MediaContent//2023/02/28/00/HCF_circle_-_white_231278_235098.png' },
+        { rank:  5,  team: 'Laberia FC',                          gp: 0, w: 0, d: 0, l: 0,  gf: 0, ga: 0, gd: 0,  pts: 0, logo: 'https://www.cosmosoccerleague.com/MediaContent//2022/08/12/03/Lab%C3%ABria_Club_Logo.svg_229964.png' },
+        { rank:  6,  team: 'Manhattan Celtic',                    gp: 0, w: 0, d: 0, l: 0,  gf: 0, ga: 0, gd: 0,  pts: 0, logo: 'https://www.cosmosoccerleague.com/MediaContent//2022/08/08/20/16807798_1126790990766414_2179197010239624392_n_229906.jpeg' },
+        { rank:  7,  team: 'Manhattan Kickers',                   gp: 0, w: 0, d: 0, l: 0,  gf: 0, ga: 0, gd: 0,  pts: 0, logo: 'https://www.cosmosoccerleague.com/MediaContent//2022/08/12/03/MKFC_header_229978.png' },
+        { rank:  8,  team: 'NY Galicia',                          gp: 0, w: 0, d: 0, l: 0,  gf: 0, ga: 0, gd: 0,  pts: 0, logo: 'https://www.cosmosoccerleague.com/MediaContent//2022/08/12/03/18622540_10154401704622007_4567169214813878094_n_229969.jpg' },
+        { rank:  9,  team: 'NY International FC',                 gp: 0, w: 0, d: 0, l: 0,  gf: 0, ga: 0, gd: 0,  pts: 0, logo: 'https://www.cosmosoccerleague.com/MediaContent//2022/08/08/21/STAR_229908.jpeg' },
+        { rank: 10,  team: 'NY Ukrainians',                       gp: 0, w: 0, d: 0, l: 0,  gf: 0, ga: 0, gd: 0,  pts: 0, logo: 'https://www.cosmosoccerleague.com/MediaContent//2026/08/15/11/doc_43C9EAF3-AC17-A7A1-2275A4E1CD01D0B3.jpg' },
+        { rank: 11,  team: 'New Amsterdam FC SBU',                gp: 0, w: 0, d: 0, l: 0,  gf: 0, ga: 0, gd: 0,  pts: 0, logo: 'https://www.cosmosoccerleague.com/MediaContent//2026/08/09/18/doc_1DE1E2AC-C90E-9FB3-0DB62D6CC891CD18.jpg' },
+        { rank: 12,  team: 'Polonia SC',                          gp: 0, w: 0, d: 0, l: 0,  gf: 0, ga: 0, gd: 0,  pts: 0, logo: 'https://www.cosmosoccerleague.com/MediaContent//2024/09/11/12/LOGO_POLONIA_NY__1__243314.png' }
+      ]
     },
     csl1r: {
       label: 'CSL',
       conference: 'DIVISION 1 RESERVE',
       color: '#5B9BD5',
       highlight: 'NY International FC II',
-      standings: []
+      standings: [
+        { rank:  1,  team: 'Braza Futbol II',                     gp: 0, w: 0, d: 0, l: 0,  gf: 0, ga: 0, gd: 0,  pts: 0, logo: 'https://www.cosmosoccerleague.com/MediaContent//2025/07/25/16/u_BF_1753487768998_1_247341.jpg' },
+        { rank:  2,  team: 'Brooklyn City FC II',                 gp: 0, w: 0, d: 0, l: 0,  gf: 0, ga: 0, gd: 0,  pts: 0, logo: 'https://www.cosmosoccerleague.com/MediaContent//2022/09/12/14/Brooklyn%20City_230465.png' },
+        { rank:  3,  team: 'Central Park Rangers III',            gp: 0, w: 0, d: 0, l: 0,  gf: 0, ga: 0, gd: 0,  pts: 0, logo: 'https://www.cosmosoccerleague.com/MediaContent//2024/09/03/09/cpr_Logo_243235.png' },
+        { rank:  4,  team: 'Hoboken FC 1912 III',                 gp: 0, w: 0, d: 0, l: 0,  gf: 0, ga: 0, gd: 0,  pts: 0, logo: 'https://www.cosmosoccerleague.com/MediaContent//2023/02/28/00/HCF_circle_-_white_231278_235098.png' },
+        { rank:  5,  team: 'Laberia FC II',                       gp: 0, w: 0, d: 0, l: 0,  gf: 0, ga: 0, gd: 0,  pts: 0, logo: 'https://www.cosmosoccerleague.com/MediaContent//2022/08/12/03/Lab%C3%ABria_Club_Logo.svg_229964.png' },
+        { rank:  6,  team: 'Manhattan Celtic II',                 gp: 0, w: 0, d: 0, l: 0,  gf: 0, ga: 0, gd: 0,  pts: 0, logo: 'https://www.cosmosoccerleague.com/MediaContent//2022/08/08/20/16807798_1126790990766414_2179197010239624392_n_229906.jpeg' },
+        { rank:  7,  team: 'Manhattan Kickers II',                gp: 0, w: 0, d: 0, l: 0,  gf: 0, ga: 0, gd: 0,  pts: 0, logo: 'https://www.cosmosoccerleague.com/MediaContent//2022/08/12/03/MKFC_header_229978.png' },
+        { rank:  8,  team: 'NY Galicia II',                       gp: 0, w: 0, d: 0, l: 0,  gf: 0, ga: 0, gd: 0,  pts: 0, logo: 'https://www.cosmosoccerleague.com/MediaContent//2022/08/12/03/18622540_10154401704622007_4567169214813878094_n_229969.jpg' },
+        { rank:  9,  team: 'NY International FC II',              gp: 0, w: 0, d: 0, l: 0,  gf: 0, ga: 0, gd: 0,  pts: 0, logo: 'https://www.cosmosoccerleague.com/MediaContent//2022/08/08/21/STAR_229908.jpeg' },
+        { rank: 10,  team: 'NY Ukrainians II',                    gp: 0, w: 0, d: 0, l: 0,  gf: 0, ga: 0, gd: 0,  pts: 0, logo: 'https://www.cosmosoccerleague.com/MediaContent//2026/08/15/11/doc_43C9EAF3-AC17-A7A1-2275A4E1CD01D0B3.jpg' },
+        { rank: 11,  team: 'New Amsterdam FC SBU II',             gp: 0, w: 0, d: 0, l: 0,  gf: 0, ga: 0, gd: 0,  pts: 0, logo: 'https://www.cosmosoccerleague.com/MediaContent//2026/08/09/18/doc_1DE1E2AC-C90E-9FB3-0DB62D6CC891CD18.jpg' },
+        { rank: 12,  team: 'Polonia SC II',                       gp: 0, w: 0, d: 0, l: 0,  gf: 0, ga: 0, gd: 0,  pts: 0, logo: 'https://www.cosmosoccerleague.com/MediaContent//2024/09/11/12/LOGO_POLONIA_NY__1__243314.png' }
+      ]
     }
   };
 
