@@ -10,15 +10,15 @@
       highlight: 'NY International FC',
       standings: [
         { rank:  1,  team: 'Braza Futbol',                        gp: 5, w: 4, d: 1, l: 0,  gf: 19, ga: 8, gd: 11,  pts: 13, logo: 'https://app.teampass.com/mediacontent/2025/07/25/16/u_BF_1753487768998_1_247341.jpg' },
-        { rank:  2,  team: 'Central Park Rangers II',             gp: 5, w: 3, d: 2, l: 0,  gf: 13, ga: 4, gd: 9,  pts: 11, logo: 'https://app.teampass.com/mediacontent/2024/09/03/09/cpr_Logo_243235.png' },
-        { rank:  3,  team: 'Manhattan Kickers',                   gp: 5, w: 3, d: 1, l: 1,  gf: 15, ga: 4, gd: 11,  pts: 10, logo: 'https://app.teampass.com/mediacontent/2022/08/12/03/MKFC_header_229978.png' },
-        { rank:  4,  team: 'Polonia SC',                          gp: 5, w: 3, d: 1, l: 1,  gf: 11, ga: 10, gd: 1,  pts: 10, logo: 'https://app.teampass.com/mediacontent/2024/09/11/12/LOGO_POLONIA_NY__1__243314.png' },
-        { rank:  5,  team: 'Laberia FC',                          gp: 5, w: 3, d: 1, l: 1,  gf: 12, ga: 7, gd: 5,  pts: 10, logo: 'https://app.teampass.com/mediacontent/2022/08/12/03/Lab%C3%ABria_Club_Logo.svg_229964.png' },
-        { rank:  6,  team: 'NY International FC',                 gp: 4, w: 3, d: 0, l: 1,  gf: 13, ga: 6, gd: 7,  pts: 9, logo: 'https://app.teampass.com/mediacontent/2022/08/08/21/STAR_229908.jpeg' },
+        { rank:  2,  team: 'NY International FC',                 gp: 5, w: 4, d: 0, l: 1,  gf: 17, ga: 7, gd: 10,  pts: 12, logo: 'https://app.teampass.com/mediacontent/2022/08/08/21/STAR_229908.jpeg' },
+        { rank:  3,  team: 'Central Park Rangers II',             gp: 5, w: 3, d: 2, l: 0,  gf: 13, ga: 4, gd: 9,  pts: 11, logo: 'https://app.teampass.com/mediacontent/2024/09/03/09/cpr_Logo_243235.png' },
+        { rank:  4,  team: 'Manhattan Kickers',                   gp: 5, w: 3, d: 1, l: 1,  gf: 15, ga: 4, gd: 11,  pts: 10, logo: 'https://app.teampass.com/mediacontent/2022/08/12/03/MKFC_header_229978.png' },
+        { rank:  5,  team: 'Polonia SC',                          gp: 5, w: 3, d: 1, l: 1,  gf: 11, ga: 10, gd: 1,  pts: 10, logo: 'https://app.teampass.com/mediacontent/2024/09/11/12/LOGO_POLONIA_NY__1__243314.png' },
+        { rank:  6,  team: 'Laberia FC',                          gp: 5, w: 3, d: 1, l: 1,  gf: 12, ga: 7, gd: 5,  pts: 10, logo: 'https://app.teampass.com/mediacontent/2022/08/12/03/Lab%C3%ABria_Club_Logo.svg_229964.png' },
         { rank:  7,  team: 'NY Ukrainians',                       gp: 5, w: 2, d: 1, l: 2,  gf: 9, ga: 7, gd: 2,  pts: 7, logo: 'https://app.teampass.com/mediacontent/2026/08/15/11/doc_43C9EAF3-AC17-A7A1-2275A4E1CD01D0B3.jpg' },
         { rank:  8,  team: 'NY Galicia',                          gp: 5, w: 2, d: 0, l: 3,  gf: 10, ga: 11, gd: -1,  pts: 6, logo: 'https://app.teampass.com/mediacontent/2022/08/12/03/18622540_10154401704622007_4567169214813878094_n_229969.jpg' },
         { rank:  9,  team: 'Brooklyn City FC',                    gp: 5, w: 1, d: 2, l: 2,  gf: 7, ga: 9, gd: -2,  pts: 5, logo: 'https://app.teampass.com/mediacontent/2022/09/12/14/Brooklyn%20City_230465.png' },
-        { rank: 10,  team: 'New Amsterdam FC SBU',                gp: 4, w: 0, d: 1, l: 3,  gf: 5, ga: 13, gd: -8,  pts: 1, logo: 'https://app.teampass.com/mediacontent/2026/08/09/18/doc_1DE1E2AC-C90E-9FB3-0DB62D6CC891CD18.jpg' },
+        { rank: 10,  team: 'New Amsterdam FC SBU',                gp: 5, w: 0, d: 1, l: 4,  gf: 6, ga: 17, gd: -11,  pts: 1, logo: 'https://app.teampass.com/mediacontent/2026/08/09/18/doc_1DE1E2AC-C90E-9FB3-0DB62D6CC891CD18.jpg' },
         { rank: 11,  team: 'Manhattan Celtic',                    gp: 5, w: 0, d: 0, l: 5,  gf: 5, ga: 18, gd: -13,  pts: 0, logo: 'https://app.teampass.com/mediacontent/2022/08/08/20/16807798_1126790990766414_2179197010239624392_n_229906.jpeg' },
         { rank: 12,  team: 'Hoboken FC 1912 II',                  gp: 5, w: 0, d: 0, l: 5,  gf: 5, ga: 27, gd: -22,  pts: 0, logo: 'https://app.teampass.com/mediacontent/2023/02/28/00/HCF_circle_-_white_231278_235098.png' }
       ]
@@ -37,10 +37,10 @@
         { rank:  6,  team: 'NY Galicia II',                       gp: 5, w: 2, d: 1, l: 2,  gf: 13, ga: 15, gd: -2,  pts: 7, logo: 'https://app.teampass.com/mediacontent/2022/08/12/03/18622540_10154401704622007_4567169214813878094_n_229969.jpg' },
         { rank:  7,  team: 'Manhattan Kickers II',                gp: 5, w: 1, d: 2, l: 2,  gf: 14, ga: 12, gd: 2,  pts: 5, logo: 'https://app.teampass.com/mediacontent/2022/08/12/03/MKFC_header_229978.png' },
         { rank:  8,  team: 'Hoboken FC 1912 III',                 gp: 5, w: 1, d: 1, l: 3,  gf: 5, ga: 12, gd: -7,  pts: 4, logo: 'https://app.teampass.com/mediacontent/2023/02/28/00/HCF_circle_-_white_231278_235098.png' },
-        { rank:  9,  team: 'Brooklyn City FC II',                 gp: 4, w: 1, d: 0, l: 3,  gf: 4, ga: 12, gd: -8,  pts: 3, logo: 'https://app.teampass.com/mediacontent/2022/09/12/14/Brooklyn%20City_230465.png' },
+        { rank:  9,  team: 'Brooklyn City FC II',                 gp: 5, w: 1, d: 1, l: 3,  gf: 6, ga: 14, gd: -8,  pts: 4, logo: 'https://app.teampass.com/mediacontent/2022/09/12/14/Brooklyn%20City_230465.png' },
         { rank: 10,  team: 'Laberia FC II',                       gp: 5, w: 0, d: 1, l: 4,  gf: 5, ga: 10, gd: -5,  pts: 1, logo: 'https://app.teampass.com/mediacontent/2022/08/12/03/Lab%C3%ABria_Club_Logo.svg_229964.png' },
-        { rank: 11,  team: 'Manhattan Celtic II',                 gp: 5, w: 0, d: 1, l: 4,  gf: 5, ga: 22, gd: -17,  pts: 1, logo: 'https://app.teampass.com/mediacontent/2022/08/08/20/16807798_1126790990766414_2179197010239624392_n_229906.jpeg' },
-        { rank: 12,  team: 'Braza Futbol II',                     gp: 4, w: 0, d: 0, l: 4,  gf: 6, ga: 18, gd: -12,  pts: 0, logo: 'https://app.teampass.com/mediacontent/2025/07/25/16/u_BF_1753487768998_1_247341.jpg' }
+        { rank: 11,  team: 'Braza Futbol II',                     gp: 5, w: 0, d: 1, l: 4,  gf: 8, ga: 20, gd: -12,  pts: 1, logo: 'https://app.teampass.com/mediacontent/2025/07/25/16/u_BF_1753487768998_1_247341.jpg' },
+        { rank: 12,  team: 'Manhattan Celtic II',                 gp: 5, w: 0, d: 1, l: 4,  gf: 5, ga: 22, gd: -17,  pts: 1, logo: 'https://app.teampass.com/mediacontent/2022/08/08/20/16807798_1126790990766414_2179197010239624392_n_229906.jpeg' }
       ]
     }
   };
